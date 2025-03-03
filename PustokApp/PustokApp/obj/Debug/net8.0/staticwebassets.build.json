@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O7VKMD31DYTMd4BfZ1EbNxISL0mfuG2jH2gilFNV1rQ=",
+  "Hash": "rV/w81A30HsidQfKxdSR0qd/GinSDNXvw5p/Sd97B0Y=",
   "Source": "PustokApp",
   "BasePath": "_content/PustokApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PustokApp\\wwwroot",
       "Source": "PustokApp",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css",
       "SourceId": "PustokApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "PustokApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "Wl5Es050KWy7bPa4u5ErzwIRZCCrxvfIROjf0Q9NEC8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css",
       "SourceId": "PustokApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "PustokApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "Wl5Es050KWy7bPa4u5ErzwIRZCCrxvfIROjf0Q9NEC8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\main.css",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\main.css",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/css/main#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\main.css"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\plugins.css",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\plugins.css",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/css/plugins#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\plugins.css"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-brands-400d41d#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-brands-400d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-regular-400d41d#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-regular-400d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/fa-solid-900d41d#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fa-solid-900d41d.eot"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.eot",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.eot",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Ionicons28b5.eot"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.svg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.svg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Ionicons28b5.svg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.ttf",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Ionicons28b5.ttf"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.woff",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Ionicons28b5#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Ionicons28b5.woff"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/best-seller-bg#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-2-slider-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-2-slider-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-3-slider-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-3-slider-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-4-slider-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-4-slider-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-slider-1-ai#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/home-slider-2-ai#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-contained#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-full#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-mid#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-small#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-small-with-text#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text-2--small#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/bg-images/promo-banner-with-text-big#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\favicon.ico",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\favicon.ico",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\author-logo.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\author-logo.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/author-logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\icon\\author-logo.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\eng-flag.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\eng-flag.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/eng-flag#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\icon\\eng-flag.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\germany-flag.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\germany-flag.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/germany-flag#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\icon\\germany-flag.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\payment.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\payment.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/payment#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\icon\\payment.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\quotation.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\quotation.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/icon/quotation#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\icon\\quotation.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo--footer.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo--footer.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/logo--footer#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\logo--footer.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\best-seller-author.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\best-seller-author.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/best-seller-author#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\best-seller-author.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\blog-grid-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\blog-grid-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-3.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\blog-grid-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-4.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-grid-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\blog-grid-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-img-big-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\blog-img-big-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-img-big-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\blog-img-big-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-3.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/blog-img-big-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\blog-img-big-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\brand-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\brand-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-3.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\brand-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-4.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\brand-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-5.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-5.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\brand-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-6.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-6.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/brand-6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\brand-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-large.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-large.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-large#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\cat-gal-large.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-mid#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\cat-gal-mid.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid-2.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid-2.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-mid-2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\cat-gal-mid-2.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-small#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\cat-gal-small.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/cat-gal-small-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-1.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-1.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-1#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\client-1.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-2.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-2.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\client-2.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-3.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-3.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\client-3.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-4.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-4.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\client-4.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-5.png",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-5.png",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/client-5#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\client-5.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/home-blog-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\home-blog-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/home-blog-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\home-blog-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-side-promo.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-side-promo.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/others/home-side-promo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\others\\home-side-promo.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\cart-product-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\cart-product-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/cart-product-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\cart-product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1781,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-10.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-10.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-10#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-10.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-11.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-11.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-11#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1823,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-11.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-12.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-12.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-12#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1844,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-12.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-13.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-13.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-13#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1865,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-13.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1886,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-3.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1907,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-4.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1928,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-5.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-5.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1949,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-6.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-6.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1970,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-7.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-7.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-7#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1991,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-8.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-8.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-9.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-9.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-9#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2033,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-1.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-1.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2054,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-details-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-2.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-2.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2075,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-details-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-3.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-3.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2096,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-details-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-4.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-4.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2117,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-details-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-5.jpg",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-5.jpg",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/image/products/product-details-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -2138,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\image\\products\\product-details-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\ajax-mail.js",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\ajax-mail.js",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/js/ajax-mail#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\ajax-mail.js"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\custom.js",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\custom.js",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/js/custom#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2180,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
       "SourceId": "PustokApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
       "BasePath": "_content/PustokApp",
       "RelativePath": "assets/js/plugins#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2204,7 +2204,7 @@
   "Endpoints": [
     {
       "Route": "assets/css/main.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\main.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\main.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2241,7 +2241,7 @@
     },
     {
       "Route": "assets/css/main.i0pxbf46sj.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\main.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\main.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2286,7 +2286,7 @@
     },
     {
       "Route": "assets/css/plugins.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\plugins.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\plugins.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2323,7 +2323,7 @@
     },
     {
       "Route": "assets/css/plugins.xbeqx67jf4.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\plugins.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\plugins.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2368,7 +2368,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.6gzvyd8be6.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2413,7 +2413,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.dtjh6x7u4c.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2458,7 +2458,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2495,7 +2495,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.hpr7egv0en.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2540,7 +2540,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.lkw5zewk94.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2585,7 +2585,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.n1sg3seu9g.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2630,7 +2630,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2667,7 +2667,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2704,7 +2704,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2741,7 +2741,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2778,7 +2778,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400d41d.dtjh6x7u4c.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2823,7 +2823,7 @@
     },
     {
       "Route": "assets/fonts/fa-brands-400d41d.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2860,7 +2860,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.4wp0zpk251.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2905,7 +2905,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.6k0lynk57o.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2950,7 +2950,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.6vbujox7jm.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2995,7 +2995,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.ecc2o9vt0s.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3040,7 +3040,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3077,7 +3077,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.nyz8uaxxne.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3122,7 +3122,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3159,7 +3159,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3196,7 +3196,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3233,7 +3233,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3270,7 +3270,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400d41d.6k0lynk57o.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3315,7 +3315,7 @@
     },
     {
       "Route": "assets/fonts/fa-regular-400d41d.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3352,7 +3352,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.12ed7fwqt2.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3397,7 +3397,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.7ik3z96cug.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +3442,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.9ctgf0ggkh.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3487,7 +3487,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3524,7 +3524,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.nu28kqit8i.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3569,7 +3569,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3606,7 +3606,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3643,7 +3643,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3680,7 +3680,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3717,7 +3717,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900.z1gwkeah4j.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3762,7 +3762,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900d41d.12ed7fwqt2.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3807,7 +3807,7 @@
     },
     {
       "Route": "assets/fonts/fa-solid-900d41d.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3844,7 +3844,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.53dac8frwl.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3889,7 +3889,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.5sm78wm4ln.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3934,7 +3934,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.7x0m125rc3.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3979,7 +3979,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.eot",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.eot",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4016,7 +4016,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.fpij1k4trn.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4061,7 +4061,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.svg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.svg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4098,7 +4098,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4135,7 +4135,7 @@
     },
     {
       "Route": "assets/fonts/Ionicons28b5.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Ionicons28b5.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4172,7 +4172,7 @@
     },
     {
       "Route": "assets/fonts/Material-Design-Iconic-Fontd1f1.49urphgmuy.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4217,7 +4217,7 @@
     },
     {
       "Route": "assets/fonts/Material-Design-Iconic-Fontd1f1.k1m6rde3rg.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4262,7 +4262,7 @@
     },
     {
       "Route": "assets/fonts/Material-Design-Iconic-Fontd1f1.ope0iqz43h.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4307,7 +4307,7 @@
     },
     {
       "Route": "assets/fonts/Material-Design-Iconic-Fontd1f1.ttf",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4344,7 +4344,7 @@
     },
     {
       "Route": "assets/fonts/Material-Design-Iconic-Fontd1f1.woff",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4381,7 +4381,7 @@
     },
     {
       "Route": "assets/fonts/Material-Design-Iconic-Fontd1f1.woff2",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4418,7 +4418,7 @@
     },
     {
       "Route": "assets/image/bg-images/best-seller-bg.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4455,7 +4455,7 @@
     },
     {
       "Route": "assets/image/bg-images/best-seller-bg.q6iuojn28j.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\best-seller-bg.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4500,7 +4500,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-2-slider-1.egzbma5twh.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4545,7 +4545,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-2-slider-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4582,7 +4582,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-2-slider-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4619,7 +4619,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-2-slider-2.lk7r8kfmcq.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-2-slider-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4664,7 +4664,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-3-slider-1.f8joeupmie.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4709,7 +4709,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-3-slider-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4746,7 +4746,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-3-slider-2.3uyu7a5quj.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4791,7 +4791,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-3-slider-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-3-slider-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4828,7 +4828,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-4-slider-1.cc7fmexdks.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4873,7 +4873,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-4-slider-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4910,7 +4910,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-4-slider-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4947,7 +4947,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-4-slider-2.mxu027j05r.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-4-slider-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4992,7 +4992,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-slider-1-ai.ek1bev3f38.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5037,7 +5037,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-slider-1-ai.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-1-ai.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5074,7 +5074,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-slider-2-ai.3sir0duo96.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5119,7 +5119,7 @@
     },
     {
       "Route": "assets/image/bg-images/home-slider-2-ai.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\home-slider-2-ai.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5156,7 +5156,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-contained.4wabt3pvya.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5201,7 +5201,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-contained.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-contained.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5238,7 +5238,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-full.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5275,7 +5275,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-full.ypgng2czbf.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-full.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5320,7 +5320,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-mid.467ssdik0t.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5365,7 +5365,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-mid.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-mid.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5402,7 +5402,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-small.jlvks8cgdm.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5447,7 +5447,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-small.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5484,7 +5484,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-small-with-text.2g4lr6cn4t.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5529,7 +5529,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-small-with-text.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-small-with-text.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5566,7 +5566,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5603,7 +5603,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text.z5zw17eha4.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5648,7 +5648,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text-2.dna4qhshwi.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5693,7 +5693,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5730,7 +5730,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text-2--small.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5767,7 +5767,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text-2--small.o3atc72rq9.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-2--small.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5812,7 +5812,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text-big.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5849,7 +5849,7 @@
     },
     {
       "Route": "assets/image/bg-images/promo-banner-with-text-big.pavvkzhd6a.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\bg-images\\promo-banner-with-text-big.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5894,7 +5894,7 @@
     },
     {
       "Route": "assets/image/favicon.ico",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\favicon.ico",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5931,7 +5931,7 @@
     },
     {
       "Route": "assets/image/favicon.qam996dp9n.ico",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\favicon.ico",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5976,7 +5976,7 @@
     },
     {
       "Route": "assets/image/icon/author-logo.ns03e5zpsr.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\author-logo.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\author-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6021,7 +6021,7 @@
     },
     {
       "Route": "assets/image/icon/author-logo.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\author-logo.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\author-logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6058,7 +6058,7 @@
     },
     {
       "Route": "assets/image/icon/eng-flag.pak0oy9hil.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\eng-flag.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\eng-flag.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6103,7 +6103,7 @@
     },
     {
       "Route": "assets/image/icon/eng-flag.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\eng-flag.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\eng-flag.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6140,7 +6140,7 @@
     },
     {
       "Route": "assets/image/icon/germany-flag.nktlt69qwj.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\germany-flag.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\germany-flag.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6185,7 +6185,7 @@
     },
     {
       "Route": "assets/image/icon/germany-flag.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\germany-flag.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\germany-flag.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6222,7 +6222,7 @@
     },
     {
       "Route": "assets/image/icon/payment.4adop21to8.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\payment.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\payment.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6267,7 +6267,7 @@
     },
     {
       "Route": "assets/image/icon/payment.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\payment.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\payment.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6304,7 +6304,7 @@
     },
     {
       "Route": "assets/image/icon/quotation.3nnkn44zox.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\quotation.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\quotation.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6349,7 +6349,7 @@
     },
     {
       "Route": "assets/image/icon/quotation.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\quotation.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\icon\\quotation.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6386,7 +6386,7 @@
     },
     {
       "Route": "assets/image/logo.9ysdotorx8.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6431,7 +6431,7 @@
     },
     {
       "Route": "assets/image/logo.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6468,7 +6468,7 @@
     },
     {
       "Route": "assets/image/logo--footer.9ysdotorx8.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo--footer.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo--footer.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6513,7 +6513,7 @@
     },
     {
       "Route": "assets/image/logo--footer.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo--footer.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\logo--footer.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6550,7 +6550,7 @@
     },
     {
       "Route": "assets/image/others/best-seller-author.hkutpbmjxa.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\best-seller-author.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\best-seller-author.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6595,7 +6595,7 @@
     },
     {
       "Route": "assets/image/others/best-seller-author.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\best-seller-author.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\best-seller-author.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6632,7 +6632,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6669,7 +6669,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-1.p5oz83bcy8.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6714,7 +6714,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-2.0a5nlyzh1x.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6759,7 +6759,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6796,7 +6796,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-3.7yzj2w2efe.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6841,7 +6841,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-3.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6878,7 +6878,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-4.7b5j4rqpab.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6923,7 +6923,7 @@
     },
     {
       "Route": "assets/image/others/blog-grid-4.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-grid-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6960,7 +6960,7 @@
     },
     {
       "Route": "assets/image/others/blog-img-big-1.230cqhqibk.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7005,7 +7005,7 @@
     },
     {
       "Route": "assets/image/others/blog-img-big-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7042,7 +7042,7 @@
     },
     {
       "Route": "assets/image/others/blog-img-big-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7079,7 +7079,7 @@
     },
     {
       "Route": "assets/image/others/blog-img-big-2.lg9nh5omos.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7124,7 +7124,7 @@
     },
     {
       "Route": "assets/image/others/blog-img-big-3.3asewnidx8.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7169,7 +7169,7 @@
     },
     {
       "Route": "assets/image/others/blog-img-big-3.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\blog-img-big-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7206,7 +7206,7 @@
     },
     {
       "Route": "assets/image/others/brand-1.1zgf85c2t5.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7251,7 +7251,7 @@
     },
     {
       "Route": "assets/image/others/brand-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7288,7 +7288,7 @@
     },
     {
       "Route": "assets/image/others/brand-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7325,7 +7325,7 @@
     },
     {
       "Route": "assets/image/others/brand-2.kn2fi2yxm1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7370,7 +7370,7 @@
     },
     {
       "Route": "assets/image/others/brand-3.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7407,7 +7407,7 @@
     },
     {
       "Route": "assets/image/others/brand-3.k1g8kge5mi.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7452,7 +7452,7 @@
     },
     {
       "Route": "assets/image/others/brand-4.5fvsildccx.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7497,7 +7497,7 @@
     },
     {
       "Route": "assets/image/others/brand-4.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7534,7 +7534,7 @@
     },
     {
       "Route": "assets/image/others/brand-5.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-5.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7571,7 +7571,7 @@
     },
     {
       "Route": "assets/image/others/brand-5.lu0oganq4q.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-5.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7616,7 +7616,7 @@
     },
     {
       "Route": "assets/image/others/brand-6.es257lwv6q.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-6.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7661,7 +7661,7 @@
     },
     {
       "Route": "assets/image/others/brand-6.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-6.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\brand-6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7698,7 +7698,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-large.32weu8jtan.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-large.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-large.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7743,7 +7743,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-large.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-large.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-large.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7780,7 +7780,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-mid.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7817,7 +7817,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-mid.wvaq2v6z7e.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7862,7 +7862,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-mid-2.1uyqffdgia.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid-2.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid-2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7907,7 +7907,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-mid-2.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid-2.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-mid-2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7944,7 +7944,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-small.fwoqouyv4z.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7989,7 +7989,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-small.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8026,7 +8026,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-small-2.5ri0bqpenp.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8071,7 +8071,7 @@
     },
     {
       "Route": "assets/image/others/cat-gal-small-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\cat-gal-small-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8108,7 +8108,7 @@
     },
     {
       "Route": "assets/image/others/client-1.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-1.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8145,7 +8145,7 @@
     },
     {
       "Route": "assets/image/others/client-1.w7t8bu2p6v.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-1.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8190,7 +8190,7 @@
     },
     {
       "Route": "assets/image/others/client-2.bkz9ywwqhr.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-2.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8235,7 +8235,7 @@
     },
     {
       "Route": "assets/image/others/client-2.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-2.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8272,7 +8272,7 @@
     },
     {
       "Route": "assets/image/others/client-3.iuhi6zl7qm.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-3.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8317,7 +8317,7 @@
     },
     {
       "Route": "assets/image/others/client-3.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-3.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8354,7 +8354,7 @@
     },
     {
       "Route": "assets/image/others/client-4.cdoh6rrden.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-4.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8399,7 +8399,7 @@
     },
     {
       "Route": "assets/image/others/client-4.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-4.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8436,7 +8436,7 @@
     },
     {
       "Route": "assets/image/others/client-5.etltcf3sdt.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-5.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8481,7 +8481,7 @@
     },
     {
       "Route": "assets/image/others/client-5.png",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-5.png",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\client-5.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8518,7 +8518,7 @@
     },
     {
       "Route": "assets/image/others/home-blog-1.20jofk12hg.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8563,7 +8563,7 @@
     },
     {
       "Route": "assets/image/others/home-blog-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8600,7 +8600,7 @@
     },
     {
       "Route": "assets/image/others/home-blog-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8637,7 +8637,7 @@
     },
     {
       "Route": "assets/image/others/home-blog-2.pv52mci2af.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-blog-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8682,7 +8682,7 @@
     },
     {
       "Route": "assets/image/others/home-side-promo.j69wcazl2g.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-side-promo.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-side-promo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8727,7 +8727,7 @@
     },
     {
       "Route": "assets/image/others/home-side-promo.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-side-promo.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\others\\home-side-promo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8764,7 +8764,7 @@
     },
     {
       "Route": "assets/image/products/cart-product-1.9copmcsz2n.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\cart-product-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\cart-product-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8809,7 +8809,7 @@
     },
     {
       "Route": "assets/image/products/cart-product-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\cart-product-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\cart-product-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8846,7 +8846,7 @@
     },
     {
       "Route": "assets/image/products/product-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8883,7 +8883,7 @@
     },
     {
       "Route": "assets/image/products/product-1.m1b44oxe5c.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8928,7 +8928,7 @@
     },
     {
       "Route": "assets/image/products/product-10.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-10.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8965,7 +8965,7 @@
     },
     {
       "Route": "assets/image/products/product-10.uiqgy7axbz.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-10.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9010,7 +9010,7 @@
     },
     {
       "Route": "assets/image/products/product-11.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-11.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-11.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9047,7 +9047,7 @@
     },
     {
       "Route": "assets/image/products/product-11.v5p5voqhv4.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-11.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-11.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9092,7 +9092,7 @@
     },
     {
       "Route": "assets/image/products/product-12.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-12.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-12.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9129,7 +9129,7 @@
     },
     {
       "Route": "assets/image/products/product-12.z2g0y355pn.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-12.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-12.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9174,7 +9174,7 @@
     },
     {
       "Route": "assets/image/products/product-13.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-13.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9211,7 +9211,7 @@
     },
     {
       "Route": "assets/image/products/product-13.oobzapg5bl.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-13.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9256,7 +9256,7 @@
     },
     {
       "Route": "assets/image/products/product-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9293,7 +9293,7 @@
     },
     {
       "Route": "assets/image/products/product-2.o4vwdl1dba.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9338,7 +9338,7 @@
     },
     {
       "Route": "assets/image/products/product-3.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9375,7 +9375,7 @@
     },
     {
       "Route": "assets/image/products/product-3.lws09mhreg.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9420,7 +9420,7 @@
     },
     {
       "Route": "assets/image/products/product-4.9n6gw9daoc.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9465,7 +9465,7 @@
     },
     {
       "Route": "assets/image/products/product-4.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9502,7 +9502,7 @@
     },
     {
       "Route": "assets/image/products/product-5.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-5.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9539,7 +9539,7 @@
     },
     {
       "Route": "assets/image/products/product-5.lznlr5oi7s.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-5.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9584,7 +9584,7 @@
     },
     {
       "Route": "assets/image/products/product-6.2j7dftzue6.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-6.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9629,7 +9629,7 @@
     },
     {
       "Route": "assets/image/products/product-6.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-6.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9666,7 +9666,7 @@
     },
     {
       "Route": "assets/image/products/product-7.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-7.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9703,7 +9703,7 @@
     },
     {
       "Route": "assets/image/products/product-7.ynxwcdsw2b.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-7.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-7.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9748,7 +9748,7 @@
     },
     {
       "Route": "assets/image/products/product-8.b29n90j6dd.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-8.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9793,7 +9793,7 @@
     },
     {
       "Route": "assets/image/products/product-8.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-8.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9830,7 +9830,7 @@
     },
     {
       "Route": "assets/image/products/product-9.cflm3ty4a2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-9.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9875,7 +9875,7 @@
     },
     {
       "Route": "assets/image/products/product-9.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-9.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9912,7 +9912,7 @@
     },
     {
       "Route": "assets/image/products/product-details-1.3ki61h4vi4.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9957,7 +9957,7 @@
     },
     {
       "Route": "assets/image/products/product-details-1.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-1.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9994,7 +9994,7 @@
     },
     {
       "Route": "assets/image/products/product-details-2.91s51wj4ha.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10039,7 +10039,7 @@
     },
     {
       "Route": "assets/image/products/product-details-2.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-2.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10076,7 +10076,7 @@
     },
     {
       "Route": "assets/image/products/product-details-3.3qt5htjt2g.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10121,7 +10121,7 @@
     },
     {
       "Route": "assets/image/products/product-details-3.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-3.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10158,7 +10158,7 @@
     },
     {
       "Route": "assets/image/products/product-details-4.hoox96koch.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10203,7 +10203,7 @@
     },
     {
       "Route": "assets/image/products/product-details-4.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-4.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10240,7 +10240,7 @@
     },
     {
       "Route": "assets/image/products/product-details-5.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-5.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10277,7 +10277,7 @@
     },
     {
       "Route": "assets/image/products/product-details-5.t1sy6ahxse.jpg",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-5.jpg",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\image\\products\\product-details-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10322,7 +10322,7 @@
     },
     {
       "Route": "assets/js/ajax-mail.js",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\ajax-mail.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\ajax-mail.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10359,7 +10359,7 @@
     },
     {
       "Route": "assets/js/ajax-mail.ytnqdzmoai.js",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\ajax-mail.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\ajax-mail.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10404,7 +10404,7 @@
     },
     {
       "Route": "assets/js/custom.3lf3m66jgj.js",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\custom.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\custom.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10449,7 +10449,7 @@
     },
     {
       "Route": "assets/js/custom.js",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\custom.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\custom.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10486,7 +10486,7 @@
     },
     {
       "Route": "assets/js/plugins.hyivfevrtb.js",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10531,7 +10531,7 @@
     },
     {
       "Route": "assets/js/plugins.js",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10568,7 +10568,7 @@
     },
     {
       "Route": "PustokApp.6oceefw486.bundle.scp.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10613,7 +10613,7 @@
     },
     {
       "Route": "PustokApp.6oceefw486.styles.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10658,7 +10658,7 @@
     },
     {
       "Route": "PustokApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PustokApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10695,7 +10695,7 @@
     },
     {
       "Route": "PustokApp.styles.css",
-      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PustokApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

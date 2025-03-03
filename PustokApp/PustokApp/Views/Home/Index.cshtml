@@ -4,13 +4,13 @@ Hero Area
 ===================================== -->
 <section class="hero-area hero-slider-1">
     <div class="sb-slick-slider" data-slick-setting='{
-                            "autoplay": true,
-                            "fade": true,
-                            "autoplaySpeed": 3000,
-                            "speed": 3000,
-                            "slidesToShow": 1,
-                            "dots":true
-                            }'>
+    "autoplay": true,
+    "fade": true,
+    "autoplaySpeed": 3000,
+    "speed": 3000,
+    "slidesToShow": 1,
+    "dots":true
+    }'>
 
         @foreach (var SLider in Model.Sliders)
         {
@@ -122,21 +122,21 @@ Home Slider Tab
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="shop-tab" data-bs-toggle="tab" href="#shop" role="tab"
-                       aria-controls="shop" aria-selected="true">
+                    aria-controls="shop" aria-selected="true">
                         Featured Products
                     </a>
                     <span class="arrow-icon"></span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="men-tab" data-bs-toggle="tab" href="#men" role="tab"
-                       aria-controls="men" aria-selected="true">
+                    aria-controls="men" aria-selected="true">
                         New Arrivals
                     </a>
                     <span class="arrow-icon"></span>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="woman-tab" data-bs-toggle="tab" href="#woman" role="tab"
-                       aria-controls="woman" aria-selected="false">
+                    aria-controls="woman" aria-selected="false">
                         Discount Products
                     </a>
                     <span class="arrow-icon"></span>
@@ -147,29 +147,29 @@ Home Slider Tab
 
                 <div class="tab-pane show active" id="shop" role="tabpanel" aria-labelledby="shop-tab">
                     <div class="product-slider multiple-row  slider-border-multiple-row  sb-slick-slider"
-                         data-slick-setting='{
-                            "autoplay": true,
-                            "autoplaySpeed": 8000,
-                            "slidesToShow": 5,
-                            "rows":1,
-                            "dots":true
-                        }' data-slick-responsive='[
-                            {"breakpoint":1200, "settings": {"slidesToShow": 3} },
-                            {"breakpoint":768, "settings": {"slidesToShow": 2} },
-                            {"breakpoint":480, "settings": {"slidesToShow": 1} },
-                            {"breakpoint":320, "settings": {"slidesToShow": 1} }
-                        ]'>
+                    data-slick-setting='{
+                    "autoplay": true,
+                    "autoplaySpeed": 8000,
+                    "slidesToShow": 5,
+                    "rows":1,
+                    "dots":true
+                    }' data-slick-responsive='[
+                    {"breakpoint":1200, "settings": {"slidesToShow": 3} },
+                    {"breakpoint":768, "settings": {"slidesToShow": 2} },
+                    {"breakpoint":480, "settings": {"slidesToShow": 1} },
+                    {"breakpoint":320, "settings": {"slidesToShow": 1} }
+                    ]'>
                         @foreach (var FeatureBook in Model.FeaturedBooks)
                         {
                             <div class="single-slide">
                                 <div class="product-card">
                                     <div class="product-header">
                                         <a href="#" class="author">
-                                                @FeatureBook.Author.Name
+                                            @FeatureBook.Author.Name
                                         </a>
                                         <h3>
                                             <a asp-controller="Book" asp-action="Detail" asp-route-id="@FeatureBook.Id" >
-                                               @FeatureBook.Title
+                                                @FeatureBook.Title
                                             </a>
                                         </h3>
                                     </div>
@@ -177,7 +177,7 @@ Home Slider Tab
                                         <div class="card-image">
                                             <img src="~/assets/image/products/@FeatureBook.BookImages.FirstOrDefault(bi=>bi.Status==true).Name" alt="">
                                             <div class="hover-contents">
-                                                <a href="product-details.html" class="hover-image">
+                                                <a asp-controller="Book" asp-action="Detail" asp-route-id="@FeatureBook.Id" class="hover-image">
                                                     <img src="~/assets/image/products/@FeatureBook.BookImages.FirstOrDefault(bi=>bi.Status==false).Name" alt="">
                                                 </a>
                                                 <div class="hover-btns">
@@ -191,16 +191,23 @@ Home Slider Tab
                                                         <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-bs-toggle="modal" data-bs-target="#quickModal"
-                                                       class="single-btn">
+                                                    class="single-btn">
                                                         <i class="fas fa-eye"></i>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="price-block">
-                                            <span class="price">£@(((FeatureBook.Price / 100) * FeatureBook.DiscountPercent).ToString("0.##"))</span>
-                                            <del class="price-old">£@FeatureBook.Price</del>
-                                            <span class="price-discount">@FeatureBook.DiscountPercent%</span>
+                                            @if (FeatureBook.DiscountPercent > 0)
+                                            {
+                                                <span class="price">£@(((FeatureBook.Price / 100) * FeatureBook.DiscountPercent).ToString("0.##"))</span>
+                                                <del class="price-old">£@FeatureBook.Price.ToString("0.##")</del>
+                                                <span class="price-discount">@FeatureBook.DiscountPercent%</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="price">£@FeatureBook.Price.ToString("0.##")</span>
+                                            }
                                         </div>
                                     </div>
                                 </div>
@@ -212,18 +219,18 @@ Home Slider Tab
 
                 <div class="tab-pane" id="men" role="tabpanel" aria-labelledby="men-tab">
                     <div class="product-slider multiple-row  slider-border-multiple-row  sb-slick-slider"
-                         data-slick-setting='{
-                            "autoplay": true,
-                            "autoplaySpeed": 8000,
-                            "slidesToShow": 5,
-                            "rows":1,
-                            "dots":true
-                        }' data-slick-responsive='[
-                            {"breakpoint":1200, "settings": {"slidesToShow": 3} },
-                            {"breakpoint":768, "settings": {"slidesToShow": 2} },
-                            {"breakpoint":480, "settings": {"slidesToShow": 1} },
-                            {"breakpoint":320, "settings": {"slidesToShow": 1} }
-                        ]'>
+                    data-slick-setting='{
+                    "autoplay": true,
+                    "autoplaySpeed": 8000,
+                    "slidesToShow": 5,
+                    "rows":1,
+                    "dots":true
+                    }' data-slick-responsive='[
+                    {"breakpoint":1200, "settings": {"slidesToShow": 3} },
+                    {"breakpoint":768, "settings": {"slidesToShow": 2} },
+                    {"breakpoint":480, "settings": {"slidesToShow": 1} },
+                    {"breakpoint":320, "settings": {"slidesToShow": 1} }
+                    ]'>
                         @foreach (var NewBook in Model.NewBooks)
                         {
                             <div class="single-slide">
@@ -242,7 +249,7 @@ Home Slider Tab
                                         <div class="card-image">
                                             <img src="~/assets/image/products/@NewBook.BookImages.FirstOrDefault(bi=>bi.Status==true).Name" alt="">
                                             <div class="hover-contents">
-                                                <a href="product-details.html" class="hover-image">
+                                                <a asp-controller="Book" asp-action="Detail" asp-route-id="@NewBook.Id" class="hover-image">
                                                     <img src="~/assets/image/products/@NewBook.BookImages.FirstOrDefault(bi=>bi.Status==false).Name" alt="">
                                                 </a>
                                                 <div class="hover-btns">
@@ -256,16 +263,23 @@ Home Slider Tab
                                                         <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-bs-toggle="modal" data-bs-target="#quickModal"
-                                                       class="single-btn">
+                                                    class="single-btn">
                                                         <i class="fas fa-eye"></i>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="price-block">
-                                          <span class="price">£@(((NewBook.Price / 100) * NewBook.DiscountPercent).ToString("0.##"))</span>
-                                            <del class="price-old">£@NewBook.Price</del>
-                                            <span class="price-discount">@NewBook.DiscountPercent%</span>
+                                            @if (NewBook.DiscountPercent > 0)
+                                            {
+                                                <span class="price">£@(((NewBook.Price / 100) * NewBook.DiscountPercent).ToString("0.##"))</span>
+                                                <del class="price-old">£@NewBook.Price.ToString("0.##")</del>
+                                                <span class="price-discount">@NewBook.DiscountPercent%</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="price">£@NewBook.Price.ToString("0.##")</span>
+                                            }
                                         </div>
                                     </div>
                                 </div>
@@ -277,18 +291,18 @@ Home Slider Tab
 
                 <div class="tab-pane" id="woman" role="tabpanel" aria-labelledby="woman-tab">
                     <div class="product-slider multiple-row  slider-border-multiple-row  sb-slick-slider"
-                         data-slick-setting='{
-                            "autoplay": true,
-                            "autoplaySpeed": 8000,
-                            "slidesToShow": 5,
-                            "rows":1,
-                            "dots":true
-                        }' data-slick-responsive='[
-                            {"breakpoint":1200, "settings": {"slidesToShow": 3} },
-                            {"breakpoint":768, "settings": {"slidesToShow": 2} },
-                            {"breakpoint":480, "settings": {"slidesToShow": 1} },
-                            {"breakpoint":320, "settings": {"slidesToShow": 1} }
-                        ]'>
+                    data-slick-setting='{
+                    "autoplay": true,
+                    "autoplaySpeed": 8000,
+                    "slidesToShow": 5,
+                    "rows":1,
+                    "dots":true
+                    }' data-slick-responsive='[
+                    {"breakpoint":1200, "settings": {"slidesToShow": 3} },
+                    {"breakpoint":768, "settings": {"slidesToShow": 2} },
+                    {"breakpoint":480, "settings": {"slidesToShow": 1} },
+                    {"breakpoint":320, "settings": {"slidesToShow": 1} }
+                    ]'>
                         @foreach (var DiscountBook in Model.DiscountBooks)
                         {
                             <div class="single-slide">
@@ -307,7 +321,7 @@ Home Slider Tab
                                         <div class="card-image">
                                             <img src="~/assets/image/products/@DiscountBook.BookImages.FirstOrDefault(bi=>bi.Status==true).Name" alt="">
                                             <div class="hover-contents">
-                                                <a href="product-details.html" class="hover-image">
+                                                <a asp-controller="Book" asp-action="Detail" asp-route-id="@DiscountBook.Id" class="hover-image">
                                                     <img src="~/assets/image/products/@DiscountBook.BookImages.FirstOrDefault(bi=>bi.Status==false).Name" alt="">
                                                 </a>
                                                 <div class="hover-btns">
@@ -321,27 +335,23 @@ Home Slider Tab
                                                         <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-bs-toggle="modal" data-bs-target="#quickModal"
-                                                       class="single-btn">
+                                                    class="single-btn">
                                                         <i class="fas fa-eye"></i>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="price-block">
-                                            <span class="price">£@(((DiscountBook.Price / 100) * DiscountBook.DiscountPercent).ToString("0.##"))</span>
-                                            <del class="price-old">£@DiscountBook.Price</del>
-                                            <span class="price-discount">@DiscountBook.DiscountPercent%</span>
+                                                <span class="price">£@(((DiscountBook.Price / 100) * DiscountBook.DiscountPercent).ToString("0.##"))</span>
+                                                <del class="price-old">£@DiscountBook.Price.ToString("0.##")</del>
+                                                <span class="price-discount">@DiscountBook.DiscountPercent%</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                         }
                     </div>
                 </div>
-
-
-
 
             </div>
         </div>
