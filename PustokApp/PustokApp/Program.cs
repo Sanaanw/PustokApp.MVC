@@ -11,6 +11,7 @@ namespace PustokApp
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
             var AppSetting = builder.Configuration;
             builder.Services.AddDbContext<PustokAppContext>(options =>
             {

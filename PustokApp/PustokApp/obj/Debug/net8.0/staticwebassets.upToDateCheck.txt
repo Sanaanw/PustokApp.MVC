@@ -99,4 +99,5 @@ wwwroot\assets\image\products\product-details-4.jpg
 wwwroot\assets\image\products\product-details-5.jpg
 wwwroot\assets\js\ajax-mail.js
 wwwroot\assets\js\custom.js
+wwwroot\assets\js\main.js
 wwwroot\assets\js\plugins.js

@@ -40,5 +40,22 @@ namespace PustokApp.Controllers
 
             return View(bookDetailVm);
         }
+
+        public IActionResult BookModal(int? Id)
+        {
+            if (Id == null)
+                return NotFound();
+            var ExistBook = context.Book
+                .Include(b => b.Brand)
+                .Include(a => a.Author)
+                .Include(bi => bi.BookImages)
+                .Include(Bt => Bt.BookTags)
+                .ThenInclude(t => t.Tag)
+                .FirstOrDefault(y => y.Id == Id);
+            if (ExistBook == null)
+                return NotFound();
+            return PartialView("_ModelBookPartial", ExistBook);
+        }
+
     }
 }

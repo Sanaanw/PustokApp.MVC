@@ -409,6 +409,10 @@
       "PackagePath": "staticwebassets\\assets\\js\\custom.js"
     },
     {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rV/w81A30HsidQfKxdSR0qd/GinSDNXvw5p/Sd97B0Y=",
+  "Hash": "PCBs8zgclu1B5f/edN+JeppUDbDJ9tg83D3O5aL1kMI=",
   "Source": "PustokApp",
   "BasePath": "_content/PustokApp",
   "Mode": "Default",
@@ -2178,6 +2178,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\main.js",
+      "SourceId": "PustokApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\",
+      "BasePath": "_content/PustokApp",
+      "RelativePath": "assets/js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46vjz98o27",
+      "Integrity": "jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
     },
     {
       "Identity": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\plugins.js",
@@ -10481,6 +10502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pz/r6pHi/45LHFpO2ZH5pD+oAuuvZkZRGBNiz9PxpN0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/main.46vjz98o27.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1359"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:49:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46vjz98o27"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/js/main.js",
+      "AssetFile": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1359"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:49:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o="
         }
       ]
     },

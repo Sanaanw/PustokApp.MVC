@@ -524,7 +524,7 @@
                     <p class="tag-block">Tags: @string.Join(" , " ,Model.Book.BookTags.Select(bt => bt.Tag.Name)) ; </p>
                     <h3 class="product-title">@Model.Book.Title</h3>
                     <ul class="list-unstyled">
-                        <li>Ex Tax: <span class="list-value"> £@(((Model.Book.Price / 100) * Model.Book.DiscountPercent).ToString("0.##"))</span></li>
+                        <li>Ex Tax: <span class="list-value"> £@((Model.Book.Price-(Model.Book.Price / 100) * Model.Book.DiscountPercent).ToString("0.##"))</span></li>
                         <li>Brands: <a href="#" class="list-value font-weight-bold">@Model.Book.Brand.Name</a></li>
                         <li>Product Code: <span class="list-value"> @Model.Book.Brand.Name</span></li>
                         <li>Reward Points: <span class="list-value"> 200</span></li>
@@ -533,7 +533,7 @@
                     <div class="price-block">
                         @if (Model.Book.DiscountPercent > 0)
                         {
-                            <span class="price-new">£@(((Model.Book.Price / 100) * Model.Book.DiscountPercent).ToString("0.##"))</span>
+                            <span class="price-new">£@((Model.Book.Price-(Model.Book.Price / 100) * Model.Book.DiscountPercent).ToString("0.##"))</span>
                             <del class="price-old">£@Model.Book.Price.ToString("0,##")</del>
                         }
                         else
