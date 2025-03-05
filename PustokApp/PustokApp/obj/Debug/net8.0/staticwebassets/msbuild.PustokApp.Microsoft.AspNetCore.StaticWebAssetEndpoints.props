@@ -1216,13 +1216,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"46vjz98o27"},{"Name":"integrity","Value":"sha256-jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o="},{"Name":"label","Value":"_content/PustokApp/assets/js/main.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 16:49:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 19:35:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 16:49:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1359"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=\u0022"},{"Name":"Last-Modified","Value":"Tue, 04 Mar 2025 19:35:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/plugins.hyivfevrtb.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\plugins.js'))</AssetFile>

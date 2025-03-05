@@ -267,7 +267,6 @@ C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PustokApp.props
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PustokApp.props
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\PustokApp.csproj.Up2Date
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\PustokApp.dll
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\refint\PustokApp.dll
@@ -400,3 +399,4 @@ C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

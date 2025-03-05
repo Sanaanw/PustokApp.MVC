@@ -27,7 +27,8 @@ public class HomeController(PustokAppContext context) : Controller
           .Where(x => x.DiscountPercent > 0)
           .Include(y => y.Author)
           .Include(z => z.BookImages.Where(bi => bi.Status != null))
-          .ToList()
+          .ToList(),
+            Features = context.Feature.ToList()
         };
         return View(homeVm);
     }

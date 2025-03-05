@@ -12,6 +12,7 @@ namespace PustokApp.Data
         public DbSet<BookTag> BookTag { get; set; }
         public DbSet<Brand> Brand { get; set; }
         public DbSet<Tag> Tag { get; set; }
+        public DbSet<Feature> Feature { get; set; }
         public PustokAppContext(DbContextOptions options) : base(options)
         {
 
