@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using PustokApp.Data;
+using PustokApp.Services;
 
 namespace PustokApp
 {
@@ -9,6 +10,7 @@ namespace PustokApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddScoped<LayoutService>();
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -17,6 +19,7 @@ namespace PustokApp
             {
                 options.UseSqlServer(AppSetting.GetConnectionString("DefaultConnection"));
             });
+           
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -33,6 +36,11 @@ namespace PustokApp
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.MapControllerRoute(
+             name: "areas",
+             pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+           );
 
             app.MapControllerRoute(
                 name: "default",

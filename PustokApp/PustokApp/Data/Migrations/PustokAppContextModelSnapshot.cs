@@ -262,6 +262,20 @@ namespace PustokApp.Migrations
                     b.ToTable("Tag");
                 });
 
+            modelBuilder.Entity("PustokApp.Models.Setting", b =>
+                {
+                    b.Property<string>("Key")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Key");
+
+                    b.ToTable("Setting");
+                });
+
             modelBuilder.Entity("PustokApp.Models.Home.Book", b =>
                 {
                     b.HasOne("PustokApp.Models.Home.Author", "Author")

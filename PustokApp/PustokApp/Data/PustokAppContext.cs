@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PustokApp.Models;
 using PustokApp.Models.Home;
 
 namespace PustokApp.Data
@@ -13,6 +14,7 @@ namespace PustokApp.Data
         public DbSet<Brand> Brand { get; set; }
         public DbSet<Tag> Tag { get; set; }
         public DbSet<Feature> Feature { get; set; }
+        public DbSet<Setting> Setting { get; set; }
         public PustokAppContext(DbContextOptions options) : base(options)
         {
 
