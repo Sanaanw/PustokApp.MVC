@@ -24,5 +24,18 @@ namespace PustokApp.Data
             modelBuilder.Entity<BookTag>()
                 .HasKey(ps => new { ps.BookId, ps.TagId });
         }
+        public override int SaveChanges()
+        {
+            var entries = ChangeTracker.Entries<BaseEntity>();
+            foreach (var entry in entries)
+            {
+                if (entry.State==EntityState.Added )
+                    entry.Entity.CreateDate = DateTime.Now;
+                if (entry.State == EntityState.Modified)
+                    entry.Entity.UpdateDate = DateTime.Now;
+
+            }
+            return base.SaveChanges();
+        }
     }
 }

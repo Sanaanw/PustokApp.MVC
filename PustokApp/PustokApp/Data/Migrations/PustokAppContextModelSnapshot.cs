@@ -42,7 +42,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Author");
+                    b.ToTable("Author", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Book", b =>
@@ -102,7 +102,7 @@ namespace PustokApp.Migrations
 
                     b.HasIndex("BrandId");
 
-                    b.ToTable("Book");
+                    b.ToTable("Book", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.BookImage", b =>
@@ -133,7 +133,7 @@ namespace PustokApp.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("BookImage");
+                    b.ToTable("BookImage", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.BookTag", b =>
@@ -148,7 +148,7 @@ namespace PustokApp.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("BookTag");
+                    b.ToTable("BookTag", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Brand", b =>
@@ -164,14 +164,15 @@ namespace PustokApp.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brand");
+                    b.ToTable("Brand", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Feature", b =>
@@ -202,7 +203,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Feature");
+                    b.ToTable("Feature", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Slider", b =>
@@ -236,7 +237,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Slider");
+                    b.ToTable("Slider", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Tag", b =>
@@ -259,7 +260,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tag");
+                    b.ToTable("Tag", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Setting", b =>
@@ -273,7 +274,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Key");
 
-                    b.ToTable("Setting");
+                    b.ToTable("Setting", (string)null);
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Book", b =>
