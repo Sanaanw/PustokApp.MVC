@@ -7,9 +7,17 @@ namespace PustokApp.Areas.Manage.Controllers
     [Area("Manage")]
     public class BrandController(PustokAppContext context) : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(int page=1,int take=2)
         {
-            var brands = context.Brand.ToList();
+            var brands = context.Brand
+                .Skip((page-1)*take)
+                .Take(take)
+                .ToList();
+
+            ViewBag.CurrentPage = page;
+            ViewBag.PageCount = Math.Ceiling((Double)context.Brand.Count() / take);
+            ViewBag.HasNext = page < ViewBag.PageCount;
+            ViewBag.HasPrev = page > 1;
             return View(brands);
         }
         public IActionResult Delete(int? id)
