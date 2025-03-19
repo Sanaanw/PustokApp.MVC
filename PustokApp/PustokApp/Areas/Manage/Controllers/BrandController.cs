@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PustokApp.Data;
+using PustokApp.Helpers;
 using PustokApp.Models.Home;
 
 namespace PustokApp.Areas.Manage.Controllers
@@ -9,16 +11,9 @@ namespace PustokApp.Areas.Manage.Controllers
     {
         public IActionResult Index(int page=1,int take=2)
         {
-            var brands = context.Brand
-                .Skip((page-1)*take)
-                .Take(take)
-                .ToList();
-
-            ViewBag.CurrentPage = page;
-            ViewBag.PageCount = Math.Ceiling((Double)context.Brand.Count() / take);
-            ViewBag.HasNext = page < ViewBag.PageCount;
-            ViewBag.HasPrev = page > 1;
-            return View(brands);
+            var query = context.Brand.Include(x=>x.Books);
+            PaginatedList<Brand> paginatedList = PaginatedList<Brand>.Create(query, page, take);
+            return View(paginatedList);
         }
         public IActionResult Delete(int? id)
         {
