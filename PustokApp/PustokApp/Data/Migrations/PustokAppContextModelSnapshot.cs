@@ -34,7 +34,6 @@ namespace PustokApp.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdateDate")
@@ -42,7 +41,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Author", (string)null);
+                    b.ToTable("Author");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Book", b =>
@@ -57,7 +56,6 @@ namespace PustokApp.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Availability")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("BrandId")
@@ -86,7 +84,6 @@ namespace PustokApp.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("ProductCode")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
@@ -102,7 +99,7 @@ namespace PustokApp.Migrations
 
                     b.HasIndex("BrandId");
 
-                    b.ToTable("Book", (string)null);
+                    b.ToTable("Book");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.BookImage", b =>
@@ -120,7 +117,6 @@ namespace PustokApp.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool?>("Status")
@@ -133,7 +129,7 @@ namespace PustokApp.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("BookImage", (string)null);
+                    b.ToTable("BookImage");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.BookTag", b =>
@@ -148,7 +144,7 @@ namespace PustokApp.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("BookTag", (string)null);
+                    b.ToTable("BookTag");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Brand", b =>
@@ -172,7 +168,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brand", (string)null);
+                    b.ToTable("Brand");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Feature", b =>
@@ -187,15 +183,12 @@ namespace PustokApp.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Desc")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Icon")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdateDate")
@@ -203,7 +196,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Feature", (string)null);
+                    b.ToTable("Feature");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Slider", b =>
@@ -222,7 +215,6 @@ namespace PustokApp.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Order")
@@ -237,7 +229,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Slider", (string)null);
+                    b.ToTable("Slider");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Tag", b =>
@@ -252,7 +244,6 @@ namespace PustokApp.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdateDate")
@@ -260,7 +251,7 @@ namespace PustokApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tag", (string)null);
+                    b.ToTable("Tag");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Setting", b =>
@@ -269,12 +260,11 @@ namespace PustokApp.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Key");
 
-                    b.ToTable("Setting", (string)null);
+                    b.ToTable("Setting");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Book", b =>

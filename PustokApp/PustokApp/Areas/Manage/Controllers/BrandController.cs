@@ -38,7 +38,6 @@ namespace PustokApp.Areas.Manage.Controllers
                 ModelState.AddModelError("Name", "This brand already exist");
                 return View();
             }
-            brand.CreateDate = DateTime.Now;
             context.Brand.Add(brand);
             context.SaveChanges();
             return RedirectToAction("Index");

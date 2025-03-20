@@ -25,6 +25,8 @@ wwwroot\assets\fonts\Ionicons28b5.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.ttf
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff2
+wwwroot\assets\image\bg-images\70ebd4c3-20ad-4925-8cbc-dac547c6bda9Screenshot 2025-03-20 115221.png
+wwwroot\assets\image\bg-images\90854052-0de2-4de8-9b0f-7779742be5f7Screenshot 2025-03-12 231340.png
 wwwroot\assets\image\bg-images\best-seller-bg.jpg
 wwwroot\assets\image\bg-images\home-2-slider-1.jpg
 wwwroot\assets\image\bg-images\home-2-slider-2.jpg

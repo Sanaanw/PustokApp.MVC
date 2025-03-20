@@ -10,16 +10,19 @@ namespace PustokApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddScoped<LayoutService>();
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            var AppSetting = builder.Configuration;
+            var config = builder.Configuration;
             builder.Services.AddDbContext<PustokAppContext>(options =>
             {
-                options.UseSqlServer(AppSetting.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
-           
+            builder.Services.AddScoped<LayoutService>();
+            //IOptionPatternPart
+            builder.Services.Configure<JwtServiceOption>(config.GetSection("Jwt"));
+
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
