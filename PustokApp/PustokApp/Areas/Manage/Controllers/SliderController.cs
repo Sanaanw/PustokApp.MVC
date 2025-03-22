@@ -24,15 +24,6 @@ namespace PustokApp.Areas.Manage.Controllers
             PaginatedList<Slider> paginatedList = PaginatedList<Slider>.Create(query, page, take);
             return View(paginatedList);
         }
-        public IActionResult Delete(int? id)
-        {
-            if (id == null) return NotFound();
-            var slider = context.Brand.FirstOrDefault(b => b.Id == id);
-            if (slider == null) return NotFound();
-            context.Brand.Remove(slider);
-            context.SaveChanges();
-            return Ok();
-        }
         public IActionResult Create()
         {
             return View();
@@ -61,6 +52,68 @@ namespace PustokApp.Areas.Manage.Controllers
              
              slider.Image= slider.Photo.SaveImage(env.WebRootPath, "assets/image/bg-images");
             context.Slider.Add(slider);
+            context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        public IActionResult Edit(int? id)
+        {
+            if (id == null) return NotFound();
+            var slider = context.Slider.FirstOrDefault(b => b.Id == id);
+            if (slider == null) return NotFound();
+            return View(slider);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(Slider slider)
+        {
+            if(! ModelState.IsValid)
+                return View();
+            var existSlider=context.Slider.FirstOrDefault(b => b.Id ==  slider.Id);
+            if (existSlider == null) return NotFound();
+            var oldImage = existSlider.Image;
+            if (slider.Photo != null)
+            {
+                if (slider.Photo == null)
+                {
+                    ModelState.AddModelError("Photo", "Photo is required");
+                    return View();
+                }
+                if (!ModelState.IsValid)
+                    return View();
+                if (!slider.Photo.CheckType(new string[] { "image/jpeg", "image/png" }))
+                {
+                    ModelState.AddModelError("Photo", "Photo type isn't appropriate");
+                    return View();
+                }
+                if (!slider.Photo.CheckSize(2 * 1024 * 1024))
+                {
+                    ModelState.AddModelError("Photo", "Photo size can't be less than 2MB");
+                    return View();
+                }
+
+                existSlider.Image = slider.Photo.SaveImage(env.WebRootPath, "assets/image/bg-images");
+                var deleteImagePath = Path.Combine(env.WebRootPath, "assets/image/bg-images", oldImage);
+                if (System.IO.File.Exists(deleteImagePath))
+                {
+                    System.IO.File.Delete(deleteImagePath);
+                }
+            }
+            existSlider.Title = slider.Title;
+            existSlider.Desc = slider.Desc;
+            existSlider.Order = slider.Order;
+            context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        public IActionResult Delete(int? id)
+        {
+            var existSlider = context.Slider.FirstOrDefault(b => b.Id == id);
+            if (existSlider is null) return NotFound();
+            var deleteImagePath = Path.Combine(env.WebRootPath, "assets/image/bg-images", existSlider.Image);
+            if (System.IO.File.Exists(deleteImagePath))
+            {
+                System.IO.File.Delete(deleteImagePath);
+            }
+            context.Slider.Remove(existSlider);
             context.SaveChanges();
             return RedirectToAction("Index");
         }

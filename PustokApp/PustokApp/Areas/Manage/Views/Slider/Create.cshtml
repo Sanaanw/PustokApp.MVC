@@ -15,6 +15,7 @@
             <div class="form-group">
                 <label asp-for="Photo"></label>
                 <input asp-for="Photo" class="form-control" placeholder="Enter slider photo">
+                <img style="display:none" width="130px" height="90px" id="imgPreview" src="" alt="" />
                 <span class="text-danger" asp-validation-for="Photo"></span>
             </div>
             <div class="form-group">

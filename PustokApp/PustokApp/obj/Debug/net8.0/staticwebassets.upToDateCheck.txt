@@ -25,9 +25,14 @@ wwwroot\assets\fonts\Ionicons28b5.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.ttf
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff2
-wwwroot\assets\image\bg-images\70ebd4c3-20ad-4925-8cbc-dac547c6bda9Screenshot 2025-03-20 115221.png
-wwwroot\assets\image\bg-images\90854052-0de2-4de8-9b0f-7779742be5f7Screenshot 2025-03-12 231340.png
+wwwroot\assets\image\bg-images\299cbc2e-b588-47bd-b9d8-f4464c2c14871_N45Fs1JD_9QRhomi_KXrDQ.png
+wwwroot\assets\image\bg-images\2d3cf2f4-afef-4ba7-afc6-df515a13128b1_N45Fs1JD_9QRhomi_KXrDQ.png
+wwwroot\assets\image\bg-images\429d5eda-d2cf-423d-81ba-32e359e8324e1_N45Fs1JD_9QRhomi_KXrDQ.png
+wwwroot\assets\image\bg-images\75f11240-b48f-4c56-837f-4a271548528cScreenshot 2024-11-05 110504.png
+wwwroot\assets\image\bg-images\8793d376-aba4-4fff-9152-52eca02fca091_N45Fs1JD_9QRhomi_KXrDQ.png
 wwwroot\assets\image\bg-images\best-seller-bg.jpg
+wwwroot\assets\image\bg-images\c7fcc125-8ada-4aea-ad78-d396769fbe27Screenshot 2024-11-08 144832.png
+wwwroot\assets\image\bg-images\cf865d5f-45d8-4f42-bf69-241d9cbebd8cScreenshot 2025-03-11 104809.png
 wwwroot\assets\image\bg-images\home-2-slider-1.jpg
 wwwroot\assets\image\bg-images\home-2-slider-2.jpg
 wwwroot\assets\image\bg-images\home-3-slider-1.jpg
@@ -115,6 +120,7 @@ wwwroot\manage\js\demo\chart-area-demo.js
 wwwroot\manage\js\demo\chart-bar-demo.js
 wwwroot\manage\js\demo\chart-pie-demo.js
 wwwroot\manage\js\demo\datatables-demo.js
+wwwroot\manage\js\main.js
 wwwroot\manage\js\sb-admin-2.js
 wwwroot\manage\js\sb-admin-2.min.js
 wwwroot\manage\scss\_buttons.scss
