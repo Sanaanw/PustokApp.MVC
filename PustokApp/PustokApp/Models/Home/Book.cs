@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PustokApp.Areas.Manage.Attributes;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PustokApp.Models.Home
@@ -22,7 +23,19 @@ namespace PustokApp.Models.Home
         public Author Author { get; set; }
         public int BrandId { get; set; }
         public Brand Brand { get; set; }
-        public List<BookImage> BookImages { get; set; }
+        public List<BookImage> BookImages { get; set; } = new();
         public List<BookTag> BookTags { get; set; }
+        [NotMapped]
+        [AllowedType("image/jpeg", "image/png")]
+        [AllowedLength(2 * 1024 * 1024)]
+        public List<IFormFile>? Files { get; set; }
+        [NotMapped]
+        [AllowedType("image/jpeg", "image/png")]
+        [AllowedLength(2 * 1024 * 1024)]
+        public IFormFile? MainFile { get; set; }
+        [NotMapped]
+        [AllowedType("image/jpeg", "image/png")]
+        [AllowedLength(2 * 1024 * 1024)]
+        public IFormFile? HoverFile { get; set; }
     }
 }

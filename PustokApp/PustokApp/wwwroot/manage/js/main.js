@@ -1,11 +1,19 @@
-﻿$(document).ready(function () {
-    $("#Photo").change(function (ev) {
-        let file=ev.target.files[0]
-        var uploadimg = new FileReader();
-        uploadimg.onload = function (displayimg) {
-            $("#imgPreview").attr('src', displayimg.target.result);
-            $("#imgPreview").show();
+﻿
+$(document).ready(function () { 
+    $("#imgPreview").on("change", function () {
+        var files = this.files;
+        console.log(files);
+        for (var i = 0; i < files.length; i++) {
+            let file = files[i];
+            var uploadImg = new FileReader();
+            uploadImg.onload = function (displayImg) {
+                let img = $("<img>")
+                    .attr("src", displayImg.target.result)
+                    .addClass("img-fluid")
+                    .css({ width: "100px", height: "90px" });
+                $("#CreatingImgPrew").append(img);
+            }
+            uploadImg.readAsDataURL(file);
         }
-        uploadimg.readAsDataURL(file);
     })
 })

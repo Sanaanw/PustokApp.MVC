@@ -486,6 +486,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\Material-Design-Iconic-Fontd1f1.woff2'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\0a0cd1fb-4c77-4ffb-8145-14750a93d95fUpdate.exe'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PustokApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PustokApp</BasePath>
+      <RelativePath>assets/image/bg-images/0a0cd1fb-4c77-4ffb-8145-14750a93d95fUpdate.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tqywdvdb3j</Fingerprint>
+      <Integrity>5RCuGlndYp0MA0JbzERX5okm/nsgQVTZ7rzp0phZJaE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\0a0cd1fb-4c77-4ffb-8145-14750a93d95fUpdate.exe'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\299cbc2e-b588-47bd-b9d8-f4464c2c14871_N45Fs1JD_9QRhomi_KXrDQ.png'))">
       <SourceType>Package</SourceType>
       <SourceId>PustokApp</SourceId>
@@ -504,23 +522,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\299cbc2e-b588-47bd-b9d8-f4464c2c14871_N45Fs1JD_9QRhomi_KXrDQ.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\2d3cf2f4-afef-4ba7-afc6-df515a13128b1_N45Fs1JD_9QRhomi_KXrDQ.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\2f7573b4-babb-410f-984a-70c1211d2d03Screenshot 2025-03-11 103438.png'))">
       <SourceType>Package</SourceType>
       <SourceId>PustokApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/bg-images/2d3cf2f4-afef-4ba7-afc6-df515a13128b1_N45Fs1JD_9QRhomi_KXrDQ.png</RelativePath>
+      <RelativePath>assets/image/bg-images/2f7573b4-babb-410f-984a-70c1211d2d03Screenshot 2025-03-11 103438.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qill8ofyse</Fingerprint>
-      <Integrity>Mjh2bTU7JEpildE630SfrqPQalhMuX/NEUjTVz69tRk=</Integrity>
+      <Fingerprint>zu4xcbxfsa</Fingerprint>
+      <Integrity>2/4a6oE8UDRG40zrpR6emrXhTDWzeL0a4N4NFp/joRs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\2d3cf2f4-afef-4ba7-afc6-df515a13128b1_N45Fs1JD_9QRhomi_KXrDQ.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\2f7573b4-babb-410f-984a-70c1211d2d03Screenshot 2025-03-11 103438.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\345e55d0-e9cd-44cc-b19d-987c03642727Update.exe'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PustokApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PustokApp</BasePath>
+      <RelativePath>assets/image/bg-images/345e55d0-e9cd-44cc-b19d-987c03642727Update.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tqywdvdb3j</Fingerprint>
+      <Integrity>5RCuGlndYp0MA0JbzERX5okm/nsgQVTZ7rzp0phZJaE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\345e55d0-e9cd-44cc-b19d-987c03642727Update.exe'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\429d5eda-d2cf-423d-81ba-32e359e8324e1_N45Fs1JD_9QRhomi_KXrDQ.png'))">
       <SourceType>Package</SourceType>
@@ -539,6 +575,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\429d5eda-d2cf-423d-81ba-32e359e8324e1_N45Fs1JD_9QRhomi_KXrDQ.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\6b00a700-21cd-4cd5-8620-afbaa4ae91a8Update.exe'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PustokApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PustokApp</BasePath>
+      <RelativePath>assets/image/bg-images/6b00a700-21cd-4cd5-8620-afbaa4ae91a8Update.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tqywdvdb3j</Fingerprint>
+      <Integrity>5RCuGlndYp0MA0JbzERX5okm/nsgQVTZ7rzp0phZJaE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\6b00a700-21cd-4cd5-8620-afbaa4ae91a8Update.exe'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\75f11240-b48f-4c56-837f-4a271548528cScreenshot 2024-11-05 110504.png'))">
       <SourceType>Package</SourceType>
@@ -629,6 +683,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\cf865d5f-45d8-4f42-bf69-241d9cbebd8cScreenshot 2025-03-11 104809.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\f26a0ce1-6abc-4737-ab36-01f32b55d2f9Update.exe'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PustokApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PustokApp</BasePath>
+      <RelativePath>assets/image/bg-images/f26a0ce1-6abc-4737-ab36-01f32b55d2f9Update.exe</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tqywdvdb3j</Fingerprint>
+      <Integrity>5RCuGlndYp0MA0JbzERX5okm/nsgQVTZ7rzp0phZJaE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\f26a0ce1-6abc-4737-ab36-01f32b55d2f9Update.exe'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\bg-images\home-2-slider-1.jpg'))">
       <SourceType>Package</SourceType>
@@ -1584,24 +1656,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\cart-product-1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-1.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>PustokApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/product-1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>m1b44oxe5c</Fingerprint>
-      <Integrity>6oR2GopMIhZDhXCw50Ep91VoRpdtdnf/5s6vpbtzxtQ=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-1.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-10.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>PustokApp</SourceId>
@@ -1673,60 +1727,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-13.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-2.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>PustokApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/product-2.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o4vwdl1dba</Fingerprint>
-      <Integrity>aKlApFryyx3TfU4qP9a0BYQth5fouzH0Y6jm2+wYpsA=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-2.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-3.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>PustokApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/product-3.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lws09mhreg</Fingerprint>
-      <Integrity>q9yfBa3z33aW2EMfEaoTd47xAtZQ2rZsrXMlMjPQwJM=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-3.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-4.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>PustokApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/product-4.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9n6gw9daoc</Fingerprint>
-      <Integrity>W0bW/oUrSS6d619IZLHbmccSNHdb5ieWRkxJEdpzkqo=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-5.jpg'))">
       <SourceType>Package</SourceType>
@@ -2208,8 +2208,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>31avyokeuj</Fingerprint>
-      <Integrity>h8bLxX3IHWp5mekkFN8YCQ4NztNLNDQsuE+NNcVDUGk=</Integrity>
+      <Fingerprint>58enj4y5mr</Fingerprint>
+      <Integrity>O3XEBtrCN/mBwx9OzfB0HOZnUG4fu3KHaqjHo4sU6Ls=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\manage\js\main.js'))</OriginalItemSpec>

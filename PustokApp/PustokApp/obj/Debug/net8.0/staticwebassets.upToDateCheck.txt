@@ -25,14 +25,18 @@ wwwroot\assets\fonts\Ionicons28b5.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.ttf
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff2
+wwwroot\assets\image\bg-images\0a0cd1fb-4c77-4ffb-8145-14750a93d95fUpdate.exe
 wwwroot\assets\image\bg-images\299cbc2e-b588-47bd-b9d8-f4464c2c14871_N45Fs1JD_9QRhomi_KXrDQ.png
-wwwroot\assets\image\bg-images\2d3cf2f4-afef-4ba7-afc6-df515a13128b1_N45Fs1JD_9QRhomi_KXrDQ.png
+wwwroot\assets\image\bg-images\2f7573b4-babb-410f-984a-70c1211d2d03Screenshot 2025-03-11 103438.png
+wwwroot\assets\image\bg-images\345e55d0-e9cd-44cc-b19d-987c03642727Update.exe
 wwwroot\assets\image\bg-images\429d5eda-d2cf-423d-81ba-32e359e8324e1_N45Fs1JD_9QRhomi_KXrDQ.png
+wwwroot\assets\image\bg-images\6b00a700-21cd-4cd5-8620-afbaa4ae91a8Update.exe
 wwwroot\assets\image\bg-images\75f11240-b48f-4c56-837f-4a271548528cScreenshot 2024-11-05 110504.png
 wwwroot\assets\image\bg-images\8793d376-aba4-4fff-9152-52eca02fca091_N45Fs1JD_9QRhomi_KXrDQ.png
 wwwroot\assets\image\bg-images\best-seller-bg.jpg
 wwwroot\assets\image\bg-images\c7fcc125-8ada-4aea-ad78-d396769fbe27Screenshot 2024-11-08 144832.png
 wwwroot\assets\image\bg-images\cf865d5f-45d8-4f42-bf69-241d9cbebd8cScreenshot 2025-03-11 104809.png
+wwwroot\assets\image\bg-images\f26a0ce1-6abc-4737-ab36-01f32b55d2f9Update.exe
 wwwroot\assets\image\bg-images\home-2-slider-1.jpg
 wwwroot\assets\image\bg-images\home-2-slider-2.jpg
 wwwroot\assets\image\bg-images\home-3-slider-1.jpg
@@ -86,14 +90,10 @@ wwwroot\assets\image\others\home-blog-1.jpg
 wwwroot\assets\image\others\home-blog-2.jpg
 wwwroot\assets\image\others\home-side-promo.jpg
 wwwroot\assets\image\products\cart-product-1.jpg
-wwwroot\assets\image\products\product-1.jpg
 wwwroot\assets\image\products\product-10.jpg
 wwwroot\assets\image\products\product-11.jpg
 wwwroot\assets\image\products\product-12.jpg
 wwwroot\assets\image\products\product-13.jpg
-wwwroot\assets\image\products\product-2.jpg
-wwwroot\assets\image\products\product-3.jpg
-wwwroot\assets\image\products\product-4.jpg
 wwwroot\assets\image\products\product-5.jpg
 wwwroot\assets\image\products\product-6.jpg
 wwwroot\assets\image\products\product-7.jpg

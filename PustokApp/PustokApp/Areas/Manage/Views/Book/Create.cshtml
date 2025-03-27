@@ -1,0 +1,95 @@
+﻿@model Book
+<div style="margin-left:50px;margin:50px" class="container">
+    <div class="row">
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control">
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desc"></label>
+                <input asp-for="Desc" class="form-control">
+                <span class="text-danger" asp-validation-for="Desc"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control">
+                <span class="text-danger" asp-validation-for="Price"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiscountPercent"></label>
+                <input asp-for="DiscountPercent" class="form-control">
+                <span class="text-danger" asp-validation-for="DiscountPercent"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProductCode"></label>
+                <input asp-for="ProductCode" class="form-control">
+                <span class="text-danger" asp-validation-for="ProductCode"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Availability"></label>
+                <input asp-for="Availability" class="form-control">
+                <span class="text-danger" asp-validation-for="Availability"></span>
+            </div>
+            <div class="form-group d-flex">
+                <div style="margin-left:20px" >
+                    <label asp-for="IsFeatured"></label>
+                    <input asp-for="IsFeatured" class="form-control">
+                </div>
+                <div style="margin-left:50px">
+                    <label asp-for="InStock"></label>
+                    <input asp-for="InStock" class="form-control">
+                </div>
+                <div style="margin-left:50px">
+                    <label asp-for="IsNew"></label>
+                    <input asp-for="IsNew" class="form-control">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label>Author </label>
+                <select asp-for="AuthorId" class="form-select" asp-items="@ViewBag.Authors" >
+             
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Brand </label>
+                <select asp-for="BrandId" class="form-select" asp-items="@ViewBag.Brands">
+                  
+                </select>
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="Files"></label>
+                <input asp-for="Files" id="imgPreview" class="form-control" >
+               <div id="CreatingImgPrew" >
+
+               </div>
+                <span class="text-danger" asp-validation-for="Files"></span>
+            </div>
+
+               <div class="form-group">
+                <label asp-for="MainFile"></label>
+                <input asp-for="MainFile" id="imgPreview" class="form-control" >
+               @* <div id="CreatingImgPrew" > *@
+
+               @* </div> *@
+                <span class="text-danger" asp-validation-for="MainFile"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="HoverFile"></label>
+                <input asp-for="HoverFile" id="imgPreview" class="form-control">
+                @* <div id="CreatingImgPrew"> *@
+                @* </div> *@
+                <span class="text-danger" asp-validation-for="HoverFile"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

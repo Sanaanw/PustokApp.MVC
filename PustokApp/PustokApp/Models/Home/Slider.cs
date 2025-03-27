@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PustokApp.Areas.Manage.Attributes;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PustokApp.Models.Home
@@ -13,6 +14,8 @@ namespace PustokApp.Models.Home
         [Required]
         public int Order { get; set; }
         [NotMapped]
+        [AllowedType("image/jpeg", "image/png")]
+        [AllowedLength(2 * 1024 * 1024)]
         public IFormFile Photo { get; set; }
     }
 }
