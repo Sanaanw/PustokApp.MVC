@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PustokApp.Data;
-using PustokApp.Services;
 using PustokApp.ViewModels;
 
 namespace PustokApp.Controllers;

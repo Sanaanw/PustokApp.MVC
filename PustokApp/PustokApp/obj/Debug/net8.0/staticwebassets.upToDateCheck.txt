@@ -27,6 +27,7 @@ wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff
 wwwroot\assets\fonts\Material-Design-Iconic-Fontd1f1.woff2
 wwwroot\assets\image\bg-images\0a0cd1fb-4c77-4ffb-8145-14750a93d95fUpdate.exe
 wwwroot\assets\image\bg-images\299cbc2e-b588-47bd-b9d8-f4464c2c14871_N45Fs1JD_9QRhomi_KXrDQ.png
+wwwroot\assets\image\bg-images\2d5532d7-045b-4859-be67-713a01ed0f1f.jpg
 wwwroot\assets\image\bg-images\2f7573b4-babb-410f-984a-70c1211d2d03Screenshot 2025-03-11 103438.png
 wwwroot\assets\image\bg-images\345e55d0-e9cd-44cc-b19d-987c03642727Update.exe
 wwwroot\assets\image\bg-images\429d5eda-d2cf-423d-81ba-32e359e8324e1_N45Fs1JD_9QRhomi_KXrDQ.png
@@ -89,7 +90,11 @@ wwwroot\assets\image\others\client-5.png
 wwwroot\assets\image\others\home-blog-1.jpg
 wwwroot\assets\image\others\home-blog-2.jpg
 wwwroot\assets\image\others\home-side-promo.jpg
+wwwroot\assets\image\products\37f676ef-6dbe-4aa8-af31-6246bcf0cb6d.jpg
+wwwroot\assets\image\products\cae307f8-e805-45e1-a694-0732ae8d45d9.jpg
 wwwroot\assets\image\products\cart-product-1.jpg
+wwwroot\assets\image\products\d9633095-554f-4514-abef-549858d27a4d.jpg
+wwwroot\assets\image\products\fa20ae46-2767-4eb4-818c-325a7e7cbbdd.jpg
 wwwroot\assets\image\products\product-10.jpg
 wwwroot\assets\image\products\product-11.jpg
 wwwroot\assets\image\products\product-12.jpg

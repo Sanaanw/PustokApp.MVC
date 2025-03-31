@@ -7,11 +7,13 @@ $(document).ready(function () {
             let file = files[i];
             var uploadImg = new FileReader();
             uploadImg.onload = function (displayImg) {
+                let div = $("<div>");
                 let img = $("<img>")
                     .attr("src", displayImg.target.result)
                     .addClass("img-fluid")
                     .css({ width: "100px", height: "90px" });
-                $("#CreatingImgPrew").append(img);
+                $(div).append(img);
+                $("#CreatingImgPrew").append(div);
             }
             uploadImg.readAsDataURL(file);
         }

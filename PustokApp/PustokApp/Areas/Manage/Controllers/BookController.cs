@@ -17,12 +17,12 @@ namespace PustokApp.Areas.Manage.Controllers
             context = _context;
             env = _env;
         }
-        public IActionResult Index(int page=1,int take=2)
+        public IActionResult Index(int page = 1, int take = 2)
         {
-            var query=context.Book
-                .Include(x=>x.Author)
-                .Include(x=>x.Brand)
-                .Include(x=>x.BookImages)
+            var query = context.Book
+                .Include(x => x.Author)
+                .Include(x => x.Brand)
+                .Include(x => x.BookImages)
                 .AsQueryable();
             PaginatedList<Book> data = PaginatedList<Book>.Create(query, page, take);
             return View(data);
@@ -68,13 +68,13 @@ namespace PustokApp.Areas.Manage.Controllers
                 ModelState.AddModelError("BrandId", "Brand is required");
                 return View();
             }
-            if (book.Files!=null)
+            if (book.Files != null)
             {
                 foreach (var file in book.Files)
                 {
                     BookImage bookImage = new();
-                    bookImage.BookId = book.Id; 
-                    bookImage.Name = file.SaveImage(env.WebRootPath,"assets/image/products");
+                    bookImage.BookId = book.Id;
+                    bookImage.Name = file.SaveImage(env.WebRootPath, "assets/image/products");
                     book.BookImages.Add(bookImage);
                 }
             }

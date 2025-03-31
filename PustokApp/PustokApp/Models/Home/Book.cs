@@ -28,14 +28,16 @@ namespace PustokApp.Models.Home
         [NotMapped]
         [AllowedType("image/jpeg", "image/png")]
         [AllowedLength(2 * 1024 * 1024)]
-        public List<IFormFile>? Files { get; set; }
+        public List<IFormFile> Files { get; set; }
         [NotMapped]
         [AllowedType("image/jpeg", "image/png")]
         [AllowedLength(2 * 1024 * 1024)]
-        public IFormFile? MainFile { get; set; }
+        public IFormFile MainFile { get; set; }
         [NotMapped]
         [AllowedType("image/jpeg", "image/png")]
         [AllowedLength(2 * 1024 * 1024)]
-        public IFormFile? HoverFile { get; set; }
+        public IFormFile HoverFile { get; set; }
+        [NotMapped]
+        public List<int> ImgIds { get; set; }
     }
 }
