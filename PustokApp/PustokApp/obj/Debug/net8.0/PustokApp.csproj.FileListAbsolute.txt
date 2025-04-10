@@ -399,4 +399,5 @@ C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\ASUS\OneDrive\Desktop\Pustok(Mvc)\PustokApp\PustokApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

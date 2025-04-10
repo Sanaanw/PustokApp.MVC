@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PustokApp.Models;
 using PustokApp.Models.Home;
 
 namespace PustokApp.Data
 {
-    public class PustokAppContext : DbContext
+    public class PustokAppContext : IdentityDbContext<AppUser>
     {
         public DbSet<Slider> Slider { get; set; }
         public DbSet<Author> Author { get; set; }
@@ -15,12 +16,14 @@ namespace PustokApp.Data
         public DbSet<Tag> Tag { get; set; }
         public DbSet<Feature> Feature { get; set; }
         public DbSet<Setting> Setting { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
         public PustokAppContext(DbContextOptions options) : base(options)
         {
 
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<BookTag>()
                 .HasKey(ps => new { ps.BookId, ps.TagId });
         }
