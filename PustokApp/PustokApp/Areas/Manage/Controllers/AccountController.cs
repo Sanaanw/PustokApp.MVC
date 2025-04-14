@@ -10,7 +10,8 @@ namespace PustokApp.Areas.Manage.Controllers
 
     public class AccountController(
         UserManager<AppUser> userManager,
-        SignInManager<AppUser> signInManager
+        SignInManager<AppUser> signInManager,
+        RoleManager<IdentityRole> roleManager
         ) : Controller
     {
         public async Task<IActionResult> CreateAdmin()
@@ -22,6 +23,9 @@ namespace PustokApp.Areas.Manage.Controllers
                 Email = "admin@gmail.com"
             };
             var result= await userManager.CreateAsync(User, "_Admin123");
+
+            await userManager.AddToRoleAsync(User, "Admin");
+
             return Json(result);
         }
         public IActionResult Login()
@@ -40,6 +44,13 @@ namespace PustokApp.Areas.Manage.Controllers
                 ModelState.AddModelError("", "Username or password is incorrect");
                 return View();
             }
+
+            if (!await userManager.IsInRoleAsync(user, "SuperAdmin") && ! await userManager.IsInRoleAsync(user, "Admin"))
+            {
+                ModelState.AddModelError("", "You are not allowed to login");
+                return View();
+            }
+
             var result = await userManager.CheckPasswordAsync(user, adminLoginVm.Password);
             if (!result)
             {
@@ -59,6 +70,14 @@ namespace PustokApp.Areas.Manage.Controllers
         {
             var user = await userManager.FindByNameAsync(User.Identity.Name);
             return Json(user);
+        }
+        public async Task<IActionResult> CreateRole()
+        {
+
+            await roleManager.CreateAsync(new IdentityRole { Name = "SuperAdmin" });
+            await roleManager.CreateAsync(new IdentityRole { Name="Admin"});
+            await roleManager.CreateAsync(new IdentityRole { Name = "Member" });
+            return Content("Roles Created");
         }
     }
 }

@@ -227,9 +227,10 @@
                             <div class="main-navigation flex-lg-right">
                                 <div class="cart-widget">
                                     <div class="login-block">
-                                        @if (User.Identity.IsAuthenticated)
+                                        @if (User.Identity.IsAuthenticated && User.IsInRole("Member") )
                                         {
-                                            <a asp-controller="Account" asp-action="Logout" class="font-weight-bold">Logout</a> 
+                                            <a asp-controller="Account" asp-action="Logout" class="font-weight-bold">Logout</a> <br>
+                                            <a asp-controller="Account" asp-action="Profile" class="font-weight-bold">@User.Identity.Name</a> 
                                         }
                                         else
                                         {

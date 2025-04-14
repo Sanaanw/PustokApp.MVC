@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PustokApp.Models;
 using PustokApp.ViewModels;
@@ -39,6 +40,9 @@ namespace PustokApp.Controllers
                 }
                 return View();
             }
+
+            await userManager.AddToRoleAsync(user, "Member");
+
             return RedirectToAction("Login");
         }
         [HttpGet]
@@ -61,6 +65,13 @@ namespace PustokApp.Controllers
                     return View();
                 }
             }
+
+            if(await userManager.IsInRoleAsync(user, "Admin") || await userManager.IsInRoleAsync(user, "SuperAdmin"))
+            {
+                ModelState.AddModelError("", "You are not allowed to login");
+                return View();
+            }
+
             var result = await signInManager.PasswordSignInAsync(user, userLoginVm.Password, userLoginVm.RememberMe, true);
             if (result.IsLockedOut)
             {
@@ -74,6 +85,7 @@ namespace PustokApp.Controllers
             }
             return RedirectToAction("Index", "Home");
         }
+        [Authorize(Roles ="Member")]
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
