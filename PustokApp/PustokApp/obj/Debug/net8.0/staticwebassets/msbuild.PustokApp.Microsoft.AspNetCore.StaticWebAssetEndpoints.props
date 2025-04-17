@@ -23664,5 +23664,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Wl5Es050KWy7bPa4u5ErzwIRZCCrxvfIROjf0Q9NEC8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Wl5Es050KWy7bPa4u5ErzwIRZCCrxvfIROjf0Q9NEC8=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 08:05:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PustokApp/Templates/forgotpassword.1o84ho7i5b.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\forgotpassword.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1o84ho7i5b"},{"Name":"integrity","Value":"sha256-4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ="},{"Name":"label","Value":"_content/PustokApp/Templates/forgotpassword.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10343"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00224QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 06:48:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PustokApp/Templates/forgotpassword.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\forgotpassword.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10343"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00224QXB2tust2YKuExr3QAt5R9HATDk156DCHY8\u002BtgrQJQ=\u0022"},{"Name":"Last-Modified","Value":"Thu, 17 Apr 2025 06:48:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

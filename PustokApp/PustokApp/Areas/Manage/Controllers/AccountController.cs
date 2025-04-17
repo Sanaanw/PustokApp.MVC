@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PustokApp.Areas.Manage.ViewModels;
 using PustokApp.Models;
@@ -34,7 +35,7 @@ namespace PustokApp.Areas.Manage.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(AdminLoginVm adminLoginVm)
+        public async Task<IActionResult> Login(AdminLoginVm adminLoginVm,string returnUrl)
         {
             if (!ModelState.IsValid) return View();
 
@@ -59,13 +60,15 @@ namespace PustokApp.Areas.Manage.Controllers
             }
             await signInManager.SignInAsync(user, true);
 
-            return RedirectToAction("Index", "Dashboard");
+            return returnUrl != null ? Redirect(returnUrl) : RedirectToAction("Index", "Dashboard");
+
         }
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
             return RedirectToAction("Login");   
         }
+        [Authorize(Roles ="Admin,SuperAdmin")]
         public async Task<IActionResult> UserProfile()
         {
             var user = await userManager.FindByNameAsync(User.Identity.Name);

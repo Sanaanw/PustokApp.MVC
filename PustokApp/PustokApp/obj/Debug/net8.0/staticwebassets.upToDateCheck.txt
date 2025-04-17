@@ -1969,3 +1969,4 @@ wwwroot\manage\vendor\jquery\jquery.slim.min.map
 wwwroot\manage\vendor\jquery-easing\jquery.easing.compatibility.js
 wwwroot\manage\vendor\jquery-easing\jquery.easing.js
 wwwroot\manage\vendor\jquery-easing\jquery.easing.min.js
+wwwroot\Templates\forgotpassword.html

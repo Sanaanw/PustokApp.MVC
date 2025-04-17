@@ -1,9 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using MimeKit.Text;
+using MimeKit;
 using PustokApp.Models;
 using PustokApp.ViewModels;
 using System.Threading.Tasks;
+using MailKit.Security;
+using MailKit.Net.Smtp;
 
 namespace PustokApp.Controllers
 {
@@ -22,10 +26,10 @@ namespace PustokApp.Controllers
         {
             if (!ModelState.IsValid)
                 return View(userRegisterVm);
-            AppUser user= await userManager.FindByNameAsync(userRegisterVm.UserName);
+            AppUser user = await userManager.FindByNameAsync(userRegisterVm.UserName);
             if (user != null)
                 ModelState.AddModelError("UserName", "This username is already taken");
-            user =new AppUser
+            user = new AppUser
             {
                 FullName = userRegisterVm.FullName,
                 UserName = userRegisterVm.UserName,
@@ -34,7 +38,7 @@ namespace PustokApp.Controllers
             var result = await userManager.CreateAsync(user, userRegisterVm.Password);
             if (!result.Succeeded)
             {
-               foreach (var error in result.Errors)
+                foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError("", error.Description);
                 }
@@ -51,14 +55,14 @@ namespace PustokApp.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Login(UserLoginVm userLoginVm)
+        public async Task<IActionResult> Login(UserLoginVm userLoginVm,string returnUrl)
         {
             if (!ModelState.IsValid)
                 return View();
             var user = await userManager.FindByNameAsync(userLoginVm.UserNameOrEmail);
             if (user == null)
             {
-                user =  await  userManager.FindByEmailAsync(userLoginVm.UserNameOrEmail);
+                user = await userManager.FindByEmailAsync(userLoginVm.UserNameOrEmail);
                 if (user == null)
                 {
                     ModelState.AddModelError("", "Invalid username or email");
@@ -66,7 +70,7 @@ namespace PustokApp.Controllers
                 }
             }
 
-            if(await userManager.IsInRoleAsync(user, "Admin") || await userManager.IsInRoleAsync(user, "SuperAdmin"))
+            if (await userManager.IsInRoleAsync(user, "Admin") || await userManager.IsInRoleAsync(user, "SuperAdmin"))
             {
                 ModelState.AddModelError("", "You are not allowed to login");
                 return View();
@@ -76,20 +80,159 @@ namespace PustokApp.Controllers
             if (result.IsLockedOut)
             {
                 ModelState.AddModelError("", "Your account is locked out");
-                return View(); 
+                return View();
             }
             if (!result.Succeeded)
             {
                 ModelState.AddModelError("", "Invalid username or password");
                 return View();
             }
-            return RedirectToAction("Index", "Home");
+            return returnUrl!=null?Redirect(returnUrl): RedirectToAction("Index", "Home");
         }
-        [Authorize(Roles ="Member")]
+        [Authorize(Roles = "Member")]
         public async Task<IActionResult> Logout()
         {
             await signInManager.SignOutAsync();
             return RedirectToAction("Login");
         }
+        [Authorize(Roles = "Member")]
+        public async Task<IActionResult> Profile(string tab="Dashboard")
+        {
+            ViewBag.tab = tab;
+            var user = await userManager.GetUserAsync(User);
+            if (user == null)
+                return NotFound();
+            var userUpdateProfileVm = new UserUpdateProfileVm
+            {
+                FullName = user.FullName,
+                UserName = user.UserName,
+                Email = user.Email
+            };
+            var userProfileVm = new UserProfileVm
+            {
+                UserUpdateProfileVm = userUpdateProfileVm,
+            };
+            return View(userProfileVm);
+        }
+        [HttpPost]
+        [Authorize(Roles = "Member")]
+        public async Task<IActionResult> Profile(UserUpdateProfileVm userUpdateProfileVm,string tab="Profile")
+        {
+            ViewBag.tab = tab;
+            UserProfileVm userProfileVm = new UserProfileVm
+            {
+                UserUpdateProfileVm = userUpdateProfileVm,
+            };
+            if (!ModelState.IsValid)
+                return View(userProfileVm);
+            var user = await userManager.GetUserAsync(User);
+            if (user == null)
+                return NotFound();
+            if(userUpdateProfileVm.NewPassword != null)
+            {
+                if (userUpdateProfileVm.CurrentPassword == null)
+                {
+                    ModelState.AddModelError("CurrentPassword", "Current password is required");
+                    return View(userProfileVm);
+                }
+                else
+                {
+                    if (userUpdateProfileVm.NewPassword == null){
+                        ModelState.AddModelError("NewPassword", "New password is required");
+                        return View(userProfileVm);
+                    }
+                    var passwordUpdateResult = await userManager.ChangePasswordAsync(user, userUpdateProfileVm.CurrentPassword, userUpdateProfileVm.NewPassword);
+                    if (!passwordUpdateResult.Succeeded)
+                    {
+                        foreach (var error in passwordUpdateResult.Errors)
+                        {
+                            ModelState.AddModelError("", error.Description);
+                        }
+                        return View(userProfileVm);
+                    }
+                }
+            }
+            user.FullName = userUpdateProfileVm.FullName;
+            user.UserName = userUpdateProfileVm.UserName;
+            user.Email = userUpdateProfileVm.Email;
+            var result = await userManager.UpdateAsync(user);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(userProfileVm); 
+            }
+            await signInManager.SignInAsync(user, true);
+            return RedirectToAction("Index", "Home");
+        }
+   
+        public async Task<IActionResult> ForgotPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordVm forgotPasswordVm)
+        {
+            if (!ModelState.IsValid)
+                return View();
+            var user= await userManager.FindByEmailAsync(forgotPasswordVm.Email);
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Email not found");
+                return View();
+            }
+            var token = await userManager.GeneratePasswordResetTokenAsync(user);
+            var url = Url.Action("ResetPassword", "Account", new { email = user.Email,token }, Request.Scheme);
+            //create email
+            var email = new MimeMessage();
+            email.From.Add(MailboxAddress.Parse("senan.nesrullayevv@gmail.com"));
+            email.To.Add(MailboxAddress.Parse(user.Email));
+            email.Subject = "Reset Password ";
+            using StreamReader streamReader = new StreamReader("wwwroot/templates/forgotpassword.html");
+            string body = await streamReader.ReadToEndAsync();
+            body = body.Replace("{{url}}", url);
+            body = body.Replace("{{username}}", user.FullName);
+            email.Body = new TextPart(TextFormat.Html) { Text = body };
+
+
+            // send email
+            using var smtp = new SmtpClient();
+            smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
+            smtp.Authenticate("senan.nesrullayevv@gmail.com", "svru yrex inui cwte");
+            smtp.Send(email);
+            smtp.Disconnect(true);
+
+            return RedirectToAction("Login","Account");
+        }
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordVm resetPasswordVm)
+        {
+            if (!ModelState.IsValid)
+                return View();
+            var user = await userManager.FindByEmailAsync(resetPasswordVm.Email);
+            if (user == null)
+            {
+                ModelState.AddModelError("", "Email not found");
+                return View();
+            }
+            var result = await userManager.ResetPasswordAsync(user, resetPasswordVm.Token , resetPasswordVm.NewPasword);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View();
+            }
+            return RedirectToAction("Login", "Account");
+        }
+
     }
+
 }
