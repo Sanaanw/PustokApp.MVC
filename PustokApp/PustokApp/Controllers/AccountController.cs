@@ -1,19 +1,19 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MimeKit.Text;
-using MimeKit;
+using Microsoft.Extensions.Options;
 using PustokApp.Models;
+using PustokApp.Services;
+using PustokApp.Settings;
 using PustokApp.ViewModels;
-using System.Threading.Tasks;
-using MailKit.Security;
-using MailKit.Net.Smtp;
 
 namespace PustokApp.Controllers
 {
     public class AccountController(
         UserManager<AppUser> userManager,
-        SignInManager<AppUser> signInManager
+        SignInManager<AppUser> signInManager,
+        EmailService emailService,
+        IOptions<EmailSetting> emailSetting
         ) : Controller
     {
         [HttpGet]
@@ -46,9 +46,20 @@ namespace PustokApp.Controllers
             }
 
             await userManager.AddToRoleAsync(user, "Member");
+            //send email verification
+            var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
+            var url = Url.Action("VerifyEmail", "Account", new { email = user.Email, token }, Request.Scheme);
+
+            using StreamReader streamReader = new StreamReader("wwwroot/templates/verifyEmail.html");
+            string body = await streamReader.ReadToEndAsync();
+            body = body.Replace("{{url}}", url);
+            body = body.Replace("{{username}}", user.FullName);
+
+            emailService.SendEmail(user.Email, "Email Verification", body, emailSetting.Value);
 
             return RedirectToAction("Login");
         }
+        //Login Logout
         [HttpGet]
         public IActionResult Login()
         {
@@ -69,7 +80,11 @@ namespace PustokApp.Controllers
                     return View();
                 }
             }
-
+            if (!user.EmailConfirmed)
+            {
+                ModelState.AddModelError("", "Email is not confirmed");
+                return View();
+            }
             if (await userManager.IsInRoleAsync(user, "Admin") || await userManager.IsInRoleAsync(user, "SuperAdmin"))
             {
                 ModelState.AddModelError("", "You are not allowed to login");
@@ -77,6 +92,7 @@ namespace PustokApp.Controllers
             }
 
             var result = await signInManager.PasswordSignInAsync(user, userLoginVm.Password, userLoginVm.RememberMe, true);
+            
             if (result.IsLockedOut)
             {
                 ModelState.AddModelError("", "Your account is locked out");
@@ -96,6 +112,7 @@ namespace PustokApp.Controllers
             return RedirectToAction("Login");
         }
         [Authorize(Roles = "Member")]
+        //Profile ForgetPasword
         public async Task<IActionResult> Profile(string tab="Dashboard")
         {
             ViewBag.tab = tab;
@@ -185,27 +202,17 @@ namespace PustokApp.Controllers
             }
             var token = await userManager.GeneratePasswordResetTokenAsync(user);
             var url = Url.Action("ResetPassword", "Account", new { email = user.Email,token }, Request.Scheme);
-            //create email
-            var email = new MimeMessage();
-            email.From.Add(MailboxAddress.Parse("senan.nesrullayevv@gmail.com"));
-            email.To.Add(MailboxAddress.Parse(user.Email));
-            email.Subject = "Reset Password ";
+           
             using StreamReader streamReader = new StreamReader("wwwroot/templates/forgotpassword.html");
             string body = await streamReader.ReadToEndAsync();
             body = body.Replace("{{url}}", url);
             body = body.Replace("{{username}}", user.FullName);
-            email.Body = new TextPart(TextFormat.Html) { Text = body };
 
-
-            // send email
-            using var smtp = new SmtpClient();
-            smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);
-            smtp.Authenticate("senan.nesrullayevv@gmail.com", "svru yrex inui cwte");
-            smtp.Send(email);
-            smtp.Disconnect(true);
+            emailService.SendEmail(user.Email, "Reset Password", body,emailSetting.Value);
 
             return RedirectToAction("Login","Account");
         }
+        //Reset password
         public IActionResult ResetPassword()
         {
             return View();
@@ -232,7 +239,25 @@ namespace PustokApp.Controllers
             }
             return RedirectToAction("Login", "Account");
         }
-
+        //Verify email
+        public async Task<IActionResult> VerifyEmail(string email, string token)
+        {
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(token))
+                return NotFound();
+            var user = await userManager.FindByEmailAsync(email);
+            if (user == null)
+                return NotFound();
+            var result = await userManager.ConfirmEmailAsync(user, token);
+            if (!result.Succeeded)
+            {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View();
+            }
+            return RedirectToAction("Login", "Account");
+        }  
     }
 
 }

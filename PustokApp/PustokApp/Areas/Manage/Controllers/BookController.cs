@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using PustokApp.Data;
 using PustokApp.Helpers;
 using PustokApp.Models.Home;
+using PustokApp.Services;
+using PustokApp.Settings;
 
 namespace PustokApp.Areas.Manage.Controllers
 {
@@ -12,10 +15,19 @@ namespace PustokApp.Areas.Manage.Controllers
     {
         private readonly IWebHostEnvironment env;
         private readonly PustokAppContext context;
-        public BookController(PustokAppContext _context, IWebHostEnvironment _env)
+        private readonly EmailService emailService;
+        private readonly IOptions<EmailSetting> emailOptions;
+        public BookController(
+            PustokAppContext _context,
+            IWebHostEnvironment _env,
+            EmailService _emailService,
+            IOptions<EmailSetting> _emailOptions 
+            )
         {
             context = _context;
             env = _env;
+            emailService = _emailService;
+            emailOptions = _emailOptions;
         }
         public IActionResult Index(int page = 1, int take = 2)
         {
@@ -115,6 +127,7 @@ namespace PustokApp.Areas.Manage.Controllers
 
             context.Book.Add(book);
             context.SaveChanges();
+
             return RedirectToAction("Index");
         }
     }

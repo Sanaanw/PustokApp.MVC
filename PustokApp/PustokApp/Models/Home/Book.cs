@@ -39,5 +39,10 @@ namespace PustokApp.Models.Home
         public IFormFile HoverFile { get; set; }
         [NotMapped]
         public List<int> ImgIds { get; set; }
+        public List<BookComment> BookComments { get; set; }
+        public Book()
+        {
+            BookComments = new();
+        }
     }
 }

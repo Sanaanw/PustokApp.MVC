@@ -174,7 +174,7 @@ namespace PustokApp.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Fullname")
+                    b.Property<string>("FullName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -301,6 +301,45 @@ namespace PustokApp.Migrations
                     b.HasIndex("BrandId");
 
                     b.ToTable("Book");
+                });
+
+            modelBuilder.Entity("PustokApp.Models.Home.BookComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Rate")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("BookComment");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.BookImage", b =>
@@ -538,6 +577,23 @@ namespace PustokApp.Migrations
                     b.Navigation("Brand");
                 });
 
+            modelBuilder.Entity("PustokApp.Models.Home.BookComment", b =>
+                {
+                    b.HasOne("PustokApp.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("PustokApp.Models.Home.Book", "Book")
+                        .WithMany("BookComments")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Book");
+                });
+
             modelBuilder.Entity("PustokApp.Models.Home.BookImage", b =>
                 {
                     b.HasOne("PustokApp.Models.Home.Book", "Book")
@@ -575,6 +631,8 @@ namespace PustokApp.Migrations
 
             modelBuilder.Entity("PustokApp.Models.Home.Book", b =>
                 {
+                    b.Navigation("BookComments");
+
                     b.Navigation("BookImages");
 
                     b.Navigation("BookTags");

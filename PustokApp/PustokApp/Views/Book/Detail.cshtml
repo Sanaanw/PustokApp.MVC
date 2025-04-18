@@ -485,14 +485,14 @@
             <div class="col-lg-5 mb--30">
                 <!-- Product Details Slider Big Image-->
                 <div class="product-details-slider sb-slick-slider arrow-type-two" data-slick-setting='{
-              "slidesToShow": 1,
-              "arrows": false,
-              "fade": true,
-              "draggable": false,
-              "swipe": false,
-              "asNavFor": ".product-slider-nav"
-              }'>
-           @foreach (var img in Model.Book.BookImages)
+                "slidesToShow": 1,
+                "arrows": false,
+                "fade": true,
+                "draggable": false,
+                "swipe": false,
+                "asNavFor": ".product-slider-nav"
+                }'>
+                    @foreach (var img in Model.Book.BookImages)
                     {
                         <div class="single-slide">
                             <img src="~/assets/image/products/@img.Name" alt="">
@@ -501,17 +501,17 @@
                 </div>
                 <!-- Product Details Slider Nav -->
                 <div class="mt--30 product-slider-nav sb-slick-slider arrow-type-two" data-slick-setting='{
-            "infinite":true,
-              "autoplay": true,
-              "autoplaySpeed": 8000,
-              "slidesToShow": 4,
-              "arrows": true,
-              "prevArrow":{"buttonClass": "slick-prev","iconClass":"fa fa-chevron-left"},
-              "nextArrow":{"buttonClass": "slick-next","iconClass":"fa fa-chevron-right"},
-              "asNavFor": ".product-details-slider",
-              "focusOnSelect": true
-              }'>
-                  @foreach (var img in Model.Book.BookImages)
+                "infinite":true,
+                "autoplay": true,
+                "autoplaySpeed": 8000,
+                "slidesToShow": 4,
+                "arrows": true,
+                "prevArrow":{"buttonClass": "slick-prev","iconClass":"fa fa-chevron-left"},
+                "nextArrow":{"buttonClass": "slick-next","iconClass":"fa fa-chevron-right"},
+                "asNavFor": ".product-details-slider",
+                "focusOnSelect": true
+                }'>
+                    @foreach (var img in Model.Book.BookImages)
                     {
                         <div class="single-slide">
                             <img src="~/assets/image/products/@img.Name" alt="">
@@ -540,25 +540,24 @@
                         {
                             <span class="price-new">£@Model.Book.Price.ToString("0,##")</span>
                         }
-                   
+
                     </div>
                     <div class="rating-widget">
                         <div class="rating-block">
-                            <span class="fas fa-star star_on"></span>
-                            <span class="fas fa-star star_on"></span>
-                            <span class="fas fa-star star_on"></span>
-                            <span class="fas fa-star star_on"></span>
-                            <span class="fas fa-star "></span>
+                            @for (int i = 0; i < 5; i++)
+                            {
+                                <span class="fas fa-star @(i<Model.AvgRate?"star_on":"star")"></span>
+                            }
                         </div>
                         <div class="review-widget">
-                            <a href="#">(1 Reviews)</a> <span>|</span>
+                            <a href="#">(@Model.TotalComments Reviews)</a> <span>|</span>
                             <a href="#">Write a review</a>
                         </div>
                     </div>
                     <article class="product-details-article">
                         <h4 class="sr-only">Product Summery</h4>
                         <p>
-                         @Model.Book.Desc
+                            @Model.Book.Desc
                         </p>
                     </article>
                     <div class="add-to-cart-row">
@@ -584,100 +583,87 @@
             <ul class="nav nav-tabs nav-style-2" id="myTab2" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="tab1" data-bs-toggle="tab" href="#tab-1" role="tab"
-                       aria-controls="tab-1" aria-selected="true">
+                    aria-controls="tab-1" aria-selected="true">
                         DESCRIPTION
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="tab2" data-bs-toggle="tab" href="#tab-2" role="tab"
-                       aria-controls="tab-2" aria-selected="true">
-                        REVIEWS (1)
+                    aria-controls="tab-2" aria-selected="true">
+                        REVIEWS (@Model.TotalComments)
                     </a>
                 </li>
             </ul>
             <div class="tab-content space-db--20" id="myTabContent">
-                <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab1">
-                    <article class="review-article">
-                        <h1 class="sr-only">Tab Article</h1>
-                        <p>
-                          @Model.Book.Desc
-                        </p>
-                    </article>
-                </div>
                 <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab2">
                     <div class="review-wrapper">
-                        <h2 class="title-lg mb--20">1 REVIEW FOR AUCTOR GRAVIDA ENIM</h2>
-                        <div class="review-comment mb--20">
-                            <div class="avatar">
-                                <img src="~/assets/image/icon/author-logo.png" alt="">
-                            </div>
-                            <div class="text">
-                                <div class="rating-block mb--15">
-                                    <span class="ion-android-star-outline star_on"></span>
-                                    <span class="ion-android-star-outline star_on"></span>
-                                    <span class="ion-android-star-outline star_on"></span>
-                                    <span class="ion-android-star-outline"></span>
-                                    <span class="ion-android-star-outline"></span>
+                        <h2 class="title-lg mb--20">@Model.TotalComments REVIEW FOR AUCTOR GRAVIDA ENIM</h2>
+                        @foreach (var comment in Model.Book.BookComments)
+                        {
+                            <div class="review-comment mb--20">
+
+                                <div class="text">
+                                    <div class="rating-block mb--15">
+
+                                    </div>
+                                    <h6 class="author">
+                                        @comment.AppUser.FullName - <span class="font-weight-400">@comment.CreateDate</span>
+                                    </h6>
+                                    <p>
+                                        @comment.Text
+                                    </p>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        if (User.Identity.Name == comment.AppUser.UserName)
+                                        {
+                                            <a asp-action="DeleteComment" asp-route-id="@comment.Id" class="btn btn-danger" >Delete</a>
+                                        }
+                                    }
                                 </div>
-                                <h6 class="author">
-                                    ADMIN – <span class="font-weight-400">March 23, 2015</span>
-                                </h6>
-                                <p>
-                                    Lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio
-                                    quis mi.
-                                </p>
                             </div>
-                        </div>
+
+                        })
+                        @if(!Model.HasComment){
                         <h2 class="title-lg mb--20 pt--15">ADD A REVIEW</h2>
                         <div class="rating-row pt-2">
                             <p class="d-block">Your Rating</p>
                             <span class="rating-widget-block">
-                                <input type="radio" name="star" id="star1">
+                                <input form="commentform" type="radio" value="5" asp-for="@Model.BookComment.Rate" id="star1">
                                 <label for="star1"></label>
-                                <input type="radio" name="star" id="star2">
+                                <input form="commentform" type="radio" value="4" asp-for="@Model.BookComment.Rate" id="star2">
                                 <label for="star2"></label>
-                                <input type="radio" name="star" id="star3">
+                                <input form="commentform" type="radio" value="3" asp-for="@Model.BookComment.Rate" id="star3">
                                 <label for="star3"></label>
-                                <input type="radio" name="star" id="star4">
+                                <input form="commentform" type="radio" value="2" asp-for="@Model.BookComment.Rate" id="staBr4">
                                 <label for="star4"></label>
-                                <input type="radio" name="star" id="star5">
+                                <input form="commentform" type="radio" value="1" asp-for="@Model.BookComment.Rate" id="star5">
                                 <label for="star5"></label>
                             </span>
-                            <form action="https://htmldemo.net/pustok/pustok/" class="mt--15 site-form ">
+
+
+
+                            <form id="commentform" asp-action="addcomment" class="mt--15 site-form ">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <label for="message">Comment</label>
-                                            <textarea name="message" id="message" cols="30" rows="10"
-                                                      class="form-control"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="form-group">
-                                            <label for="name">Name *</label>
-                                            <input type="text" id="name" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="form-group">
-                                            <label for="email">Email *</label>
-                                            <input type="text" id="email" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4">
-                                        <div class="form-group">
-                                            <label for="website">Website</label>
-                                            <input type="text" id="website" class="form-control">
+                                            <input type="hidden" asp-for="@Model.BookComment.BookId" value="@Model.Book.Id" />
+                                            <input asp-for="@Model.BookComment.Text" id="message" cols="30" rows="10"
+                                                   class="form-control">
+                                                <span class="text-danger" asp-validation-for="@Model.BookComment.Text" >
+
+                                                </span>
                                         </div>
                                     </div>
                                     <div class="col-lg-4">
                                         <div class="submit-btn">
-                                            <a href="#" class="btn btn-black">Post Comment</a>
+                                            <button type="submit" class="btn btn-black">Post Comment</button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
+
                         </div>
+                        }
                     </div>
                 </div>
             </div>
@@ -854,14 +840,14 @@
                                 </div>
                                 <div class="rating-widget">
                                     <div class="rating-block">
-                                        <span class="fas fa-star star_on"></span>
-                                        <span class="fas fa-star star_on"></span>
-                                        <span class="fas fa-star star_on"></span>
-                                        <span class="fas fa-star star_on"></span>
-                                        <span class="fas fa-star "></span>
+                                        @for (int i = 0; i < 5; i++)
+                                        {
+                                            <span class="fas fa-star @(i<Model.AvgRate?"star_on":"star")"></span>
+                                        }
+                      
                                     </div>
                                     <div class="review-widget">
-                                        <a href="#">(1 Reviews)</a> <span>|</span>
+                                        <a href="#">(@Model.TotalComments Reviews)</a> <span>|</span>
                                         <a href="#">Write a review</a>
                                     </div>
                                 </div>
@@ -953,4 +939,9 @@
             </div>
         </div>
     </div>
-</section>
+< /section>
+        @section Scripts {
+            @{
+                @Html.Partial("_ValidationScriptsPartial")
+            }
+    }

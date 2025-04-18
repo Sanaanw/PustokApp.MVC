@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using PustokApp.Data;
 using PustokApp.Helpers;
 using PustokApp.Models.Home;
+using PustokApp.Settings;
 
 namespace PustokApp.Areas.Manage.Controllers
 {

@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Templates\\forgotpassword.html"
     },
     {
+      "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\Templates\\verifyEmail.html",
+      "PackagePath": "staticwebassets\\Templates\\verifyEmail.html"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\wwwroot\\assets\\css\\main.css",
       "PackagePath": "staticwebassets\\assets\\css\\main.css"
     },
