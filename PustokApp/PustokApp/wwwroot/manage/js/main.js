@@ -1,5 +1,5 @@
 ﻿
-$(document).ready(function () { 
+$(document).ready(function () {
     $("#imgPreview").on("change", function () {
         var files = this.files;
         console.log(files);
@@ -18,4 +18,5 @@ $(document).ready(function () {
             uploadImg.readAsDataURL(file);
         }
     })
+   
 })

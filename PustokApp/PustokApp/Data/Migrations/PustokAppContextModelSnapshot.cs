@@ -411,6 +411,38 @@ namespace PustokApp.Migrations
                     b.ToTable("Brand");
                 });
 
+            modelBuilder.Entity("PustokApp.Models.Home.DbBasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdateDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("DbBasketItem");
+                });
+
             modelBuilder.Entity("PustokApp.Models.Home.Feature", b =>
                 {
                     b.Property<int>("Id")
@@ -622,6 +654,28 @@ namespace PustokApp.Migrations
                     b.Navigation("Book");
 
                     b.Navigation("Tag");
+                });
+
+            modelBuilder.Entity("PustokApp.Models.Home.DbBasketItem", b =>
+                {
+                    b.HasOne("PustokApp.Models.AppUser", "AppUser")
+                        .WithMany("DbBasketItems")
+                        .HasForeignKey("AppUserId");
+
+                    b.HasOne("PustokApp.Models.Home.Book", "Book")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Book");
+                });
+
+            modelBuilder.Entity("PustokApp.Models.AppUser", b =>
+                {
+                    b.Navigation("DbBasketItems");
                 });
 
             modelBuilder.Entity("PustokApp.Models.Home.Author", b =>

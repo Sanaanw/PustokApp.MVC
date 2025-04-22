@@ -21,10 +21,10 @@
                             <img src="~/assets/image/products/@Book.BookImages.FirstOrDefault(bi=>bi.Status==false).Name" alt="">
                         </a>
                         <div class="hover-btns">
-                            <a href="cart.html" class="single-btn">
+                            <a asp-controller="Basket" asp-action="addtobasket" asp-route-id="@Book.Id" class="single-btn Basket">
                                 <i class="fas fa-shopping-basket"></i>
                             </a>
-                            <a href="wishlist.html" class="single-btn">
+                            <a href="wishlist.html" class="single-btn Basket">
                                 <i class="fas fa-heart"></i>
                             </a>
                             <a href="compare.html" class="single-btn">
@@ -57,3 +57,4 @@
         </div>
     </div>
 }
+

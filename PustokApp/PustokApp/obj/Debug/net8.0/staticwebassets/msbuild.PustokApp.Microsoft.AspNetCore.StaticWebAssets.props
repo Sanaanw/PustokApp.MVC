@@ -1656,12 +1656,48 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\others\home-side-promo.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\37f676ef-6dbe-4aa8-af31-6246bcf0cb6d.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\1ff85b39-68c6-45d7-879c-03bcc73dc178.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>PustokApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/37f676ef-6dbe-4aa8-af31-6246bcf0cb6d.jpg</RelativePath>
+      <RelativePath>assets/image/products/1ff85b39-68c6-45d7-879c-03bcc73dc178.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9copmcsz2n</Fingerprint>
+      <Integrity>h7LTBLw9L6jR4+bG0oCe6tG3nfJWetJmBofzaegZM40=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\1ff85b39-68c6-45d7-879c-03bcc73dc178.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\3bf2461b-3b8e-4770-876f-5691081dfec4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PustokApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PustokApp</BasePath>
+      <RelativePath>assets/image/products/3bf2461b-3b8e-4770-876f-5691081dfec4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oobzapg5bl</Fingerprint>
+      <Integrity>GEzF68giLZmTW822AZm9o8ijnI6VhcizlxtlS+PA4as=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\3bf2461b-3b8e-4770-876f-5691081dfec4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\3fca3f34-9585-4ce6-979d-c36601d34011.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PustokApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PustokApp</BasePath>
+      <RelativePath>assets/image/products/3fca3f34-9585-4ce6-979d-c36601d34011.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1672,25 +1708,25 @@
       <Integrity>ouXQeyM0WKizCJXGNrcclr+7gBbe+64GbyDbW+z3V+s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\37f676ef-6dbe-4aa8-af31-6246bcf0cb6d.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\3fca3f34-9585-4ce6-979d-c36601d34011.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\cae307f8-e805-45e1-a694-0732ae8d45d9.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\710ce189-d02c-4ad8-9a39-64ba50e66900.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>PustokApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/cae307f8-e805-45e1-a694-0732ae8d45d9.jpg</RelativePath>
+      <RelativePath>assets/image/products/710ce189-d02c-4ad8-9a39-64ba50e66900.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t1sy6ahxse</Fingerprint>
-      <Integrity>gUAHp4HBBqxfsMJuXi4i7BeHLdiEQ43q5mr6fC5m7JA=</Integrity>
+      <Fingerprint>b29n90j6dd</Fingerprint>
+      <Integrity>XRlktgknvM+YVRlTUeoMQGugkFsfvEddBQm0kHKQwPQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\cae307f8-e805-45e1-a694-0732ae8d45d9.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\710ce189-d02c-4ad8-9a39-64ba50e66900.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\cart-product-1.jpg'))">
       <SourceType>Package</SourceType>
@@ -1710,12 +1746,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\cart-product-1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\d9633095-554f-4514-abef-549858d27a4d.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\d186fe69-52ca-4bc1-aee2-f71f1d4b06ea.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>PustokApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/d9633095-554f-4514-abef-549858d27a4d.jpg</RelativePath>
+      <RelativePath>assets/image/products/d186fe69-52ca-4bc1-aee2-f71f1d4b06ea.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1726,25 +1762,7 @@
       <Integrity>sZt5aX+DZfJEMz1TQNT93LlPopUotRG4YGJwahlVvV8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\d9633095-554f-4514-abef-549858d27a4d.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\fa20ae46-2767-4eb4-818c-325a7e7cbbdd.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>PustokApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PustokApp</BasePath>
-      <RelativePath>assets/image/products/fa20ae46-2767-4eb4-818c-325a7e7cbbdd.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oobzapg5bl</Fingerprint>
-      <Integrity>GEzF68giLZmTW822AZm9o8ijnI6VhcizlxtlS+PA4as=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\fa20ae46-2767-4eb4-818c-325a7e7cbbdd.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\d186fe69-52ca-4bc1-aee2-f71f1d4b06ea.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\image\products\product-10.jpg'))">
       <SourceType>Package</SourceType>
@@ -2046,8 +2064,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>46vjz98o27</Fingerprint>
-      <Integrity>jGuLQ/0xWIUDK7DBF0mabNnqyYTvg5vgJgNd1mlCO7o=</Integrity>
+      <Fingerprint>f9wgkgt3rm</Fingerprint>
+      <Integrity>U2sJXnmHrdomvz1/8cQEf9YcxluCfQA3wUdf2fwZyKY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</OriginalItemSpec>
@@ -2298,8 +2316,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tsvzt94b5l</Fingerprint>
-      <Integrity>vYySYsVZUcJugWzAnbIikHHRV0FcCPSV+DAXAAL2qtA=</Integrity>
+      <Fingerprint>4huj7buemy</Fingerprint>
+      <Integrity>+Asw9YgaQ6aadKbKKfhgPqCKuClKUQUABxMMFyehFac=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\manage\js\main.js'))</OriginalItemSpec>

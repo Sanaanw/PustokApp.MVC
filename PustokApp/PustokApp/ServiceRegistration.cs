@@ -42,7 +42,7 @@ namespace PustokApp
                 opt.SignIn.RequireConfirmedEmail = true;
             }).AddEntityFrameworkStores<PustokAppContext>().AddDefaultTokenProviders();
 
-
+            services.AddHttpContextAccessor();
             //Json cycle ucun
             services.AddControllers()
     .AddJsonOptions(opt =>

@@ -90,11 +90,12 @@ wwwroot\assets\image\others\client-5.png
 wwwroot\assets\image\others\home-blog-1.jpg
 wwwroot\assets\image\others\home-blog-2.jpg
 wwwroot\assets\image\others\home-side-promo.jpg
-wwwroot\assets\image\products\37f676ef-6dbe-4aa8-af31-6246bcf0cb6d.jpg
-wwwroot\assets\image\products\cae307f8-e805-45e1-a694-0732ae8d45d9.jpg
+wwwroot\assets\image\products\1ff85b39-68c6-45d7-879c-03bcc73dc178.jpg
+wwwroot\assets\image\products\3bf2461b-3b8e-4770-876f-5691081dfec4.jpg
+wwwroot\assets\image\products\3fca3f34-9585-4ce6-979d-c36601d34011.jpg
+wwwroot\assets\image\products\710ce189-d02c-4ad8-9a39-64ba50e66900.jpg
 wwwroot\assets\image\products\cart-product-1.jpg
-wwwroot\assets\image\products\d9633095-554f-4514-abef-549858d27a4d.jpg
-wwwroot\assets\image\products\fa20ae46-2767-4eb4-818c-325a7e7cbbdd.jpg
+wwwroot\assets\image\products\d186fe69-52ca-4bc1-aee2-f71f1d4b06ea.jpg
 wwwroot\assets\image\products\product-10.jpg
 wwwroot\assets\image\products\product-11.jpg
 wwwroot\assets\image\products\product-12.jpg

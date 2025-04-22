@@ -103,6 +103,8 @@ namespace PustokApp.Controllers
                 ModelState.AddModelError("", "Invalid username or password");
                 return View();
             }
+
+            Response.Cookies.Delete("basket");
             return returnUrl!=null?Redirect(returnUrl): RedirectToAction("Index", "Home");
         }
         [Authorize(Roles = "Member")]

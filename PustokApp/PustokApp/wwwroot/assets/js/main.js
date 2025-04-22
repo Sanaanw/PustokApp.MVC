@@ -1,4 +1,16 @@
 ﻿$(document).ready(function () {
+    //Basket
+    $('.cart-block').click(function (e) {
+        e.preventDefault();
+        let url = $(this).attr('href');
+        alert(url)
+        fetch(url)
+            .then(response => response.text())
+            .then(data => {
+                $(".cart-dropdown-block").html(data);
+            });
+    });
+
     $('.BookModal').click(function (e) {
         e.preventDefault();
         let url = $(this).attr('href');
@@ -31,4 +43,5 @@
             })
         $('#quickModal').modal('show');
     })
+
 })

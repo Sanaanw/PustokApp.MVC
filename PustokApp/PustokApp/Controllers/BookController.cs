@@ -6,7 +6,6 @@ using PustokApp.Data;
 using PustokApp.Models;
 using PustokApp.Models.Home;
 using PustokApp.ViewModels;
-using System.Threading.Tasks;
 
 namespace PustokApp.Controllers
 {
@@ -83,7 +82,7 @@ namespace PustokApp.Controllers
             return PartialView("_ModelBookPartial", ExistBook);
         }
 
-        private BookDetailVm GetBookDetailVm(int bookId,string userId=null)
+        private BookDetailVm GetBookDetailVm(int bookId, string userId = null)
         {
             var ExistBook = context.Book
                .Include(b => b.Brand)
@@ -95,17 +94,21 @@ namespace PustokApp.Controllers
                .ThenInclude(t => t.Tag)
                .FirstOrDefault(y => y.Id == bookId);
 
+            if (ExistBook == null)
+                return null;
+
             BookDetailVm bookDetailVm = new()
             {
                 Book = ExistBook,
                 ReleatedBook = context.Book
-                .Include(b => b.Brand)
-                .Include(a => a.Author)
-                .Include(b => b.BookComments)
-                .Include(bi => bi.BookImages)
-                .Where(x => x.AuthorId == ExistBook.AuthorId)
-                .ToList()
+                    .Include(b => b.Brand)
+                    .Include(a => a.Author)
+                    .Include(b => b.BookComments)
+                    .Include(bi => bi.BookImages)
+                    .Where(x => x.AuthorId == ExistBook.AuthorId && x.Id != bookId)
+                    .ToList()
             };
+
             if (userId != null)
             {
                 var user = userManager.FindByNameAsync(User.Identity.Name).Result;
@@ -113,17 +116,23 @@ namespace PustokApp.Controllers
                 if (user != null)
                 {
                     bookDetailVm.HasComment = context.BookComment
-                  .Any(bc => bc.AppUserId == user.Id && bc.BookId == bookId && bc.Status != CommentStatus.Rejected);
+                        .Any(bc => bc.AppUserId == user.Id && bc.BookId == bookId && bc.Status != CommentStatus.Rejected);
                 }
             }
-             
-                bookDetailVm.TotalComments = context.BookComment
-                    .Count(bc => bc.BookId == bookId);
-                bookDetailVm.AvgRate = (decimal)context.BookComment
-                    .Where(bc => bc.BookId == bookId)
-                    .Average(bc => bc.Rate);
+
+            bookDetailVm.TotalComments = context.BookComment
+                .Count(bc => bc.BookId == bookId);
+
+            var rates = context.BookComment
+                .Where(bc => bc.BookId == bookId)
+                .Select(bc => (decimal?)bc.Rate)
+                .ToList();
+
+            bookDetailVm.AvgRate = rates.Any() ? rates.Average() ?? 0 : 0;
+
             return bookDetailVm;
         }
+
         [Authorize(Roles ="Member")]
         public async Task<IActionResult> DeleteComment(int? Id)
         {
