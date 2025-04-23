@@ -1368,17 +1368,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pz/r6pHi/45LHFpO2ZH5pD\u002BoAuuvZkZRGBNiz9PxpN0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"20367"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pz/r6pHi/45LHFpO2ZH5pD\u002BoAuuvZkZRGBNiz9PxpN0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Nov 2022 06:08:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/main.f9wgkgt3rm.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f9wgkgt3rm"},{"Name":"integrity","Value":"sha256-U2sJXnmHrdomvz1/8cQEf9YcxluCfQA3wUdf2fwZyKY="},{"Name":"label","Value":"_content/PustokApp/assets/js/main.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1690"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022U2sJXnmHrdomvz1/8cQEf9YcxluCfQA3wUdf2fwZyKY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 07:12:50 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U2sJXnmHrdomvz1/8cQEf9YcxluCfQA3wUdf2fwZyKY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1690"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022U2sJXnmHrdomvz1/8cQEf9YcxluCfQA3wUdf2fwZyKY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 07:12:50 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5QZEzWAVFWupcL61/8PpzELNoRzVtwmd4E\u002BWS2wp6Xg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1686"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225QZEzWAVFWupcL61/8PpzELNoRzVtwmd4E\u002BWS2wp6Xg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 11:24:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/main.rgkq37vfpg.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rgkq37vfpg"},{"Name":"integrity","Value":"sha256-5QZEzWAVFWupcL61/8PpzELNoRzVtwmd4E\u002BWS2wp6Xg="},{"Name":"label","Value":"_content/PustokApp/assets/js/main.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1686"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225QZEzWAVFWupcL61/8PpzELNoRzVtwmd4E\u002BWS2wp6Xg=\u0022"},{"Name":"Last-Modified","Value":"Tue, 22 Apr 2025 11:24:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/plugins.hyivfevrtb.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\plugins.js'))</AssetFile>

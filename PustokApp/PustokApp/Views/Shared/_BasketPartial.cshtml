@@ -37,10 +37,10 @@
 
         <div class=" single-cart-block ">
             <div class="btn-block">
-                <a asp-controller="Book" asp-action="Index" class="btn">
+                <a asp-controller="Basket" asp-action="Index" class="btn">
                     View Cart <i class="fas fa-chevron-right"></i>
                 </a>
-                <a href="checkout.html" class="btn btn--primary">
+                <a asp-controller="Order" asp-action="CheckOut" class="btn btn--primary">
                     Check Out <i class="fas fa-chevron-right"></i>
                 </a>
             </div>

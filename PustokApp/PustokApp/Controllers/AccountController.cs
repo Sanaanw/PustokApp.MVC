@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using PustokApp.Data;
 using PustokApp.Models;
 using PustokApp.Services;
 using PustokApp.Settings;
@@ -10,6 +11,7 @@ using PustokApp.ViewModels;
 namespace PustokApp.Controllers
 {
     public class AccountController(
+        PustokAppContext context,
         UserManager<AppUser> userManager,
         SignInManager<AppUser> signInManager,
         EmailService emailService,
@@ -138,15 +140,19 @@ namespace PustokApp.Controllers
         public async Task<IActionResult> Profile(UserUpdateProfileVm userUpdateProfileVm,string tab="Profile")
         {
             ViewBag.tab = tab;
-            UserProfileVm userProfileVm = new UserProfileVm
-            {
-                UserUpdateProfileVm = userUpdateProfileVm,
-            };
-            if (!ModelState.IsValid)
-                return View(userProfileVm);
             var user = await userManager.GetUserAsync(User);
             if (user == null)
                 return NotFound();
+            UserProfileVm userProfileVm = new UserProfileVm
+            {
+                UserUpdateProfileVm = userUpdateProfileVm,
+                Orders = context.Order
+                .Where(x => x.AppUserId == user.Id)
+                .ToList()
+            };
+            if (!ModelState.IsValid)
+                return View(userProfileVm);
+       
             if(userUpdateProfileVm.NewPassword != null)
             {
                 if (userUpdateProfileVm.CurrentPassword == null)

@@ -1,6 +1,6 @@
 ﻿$(document).ready(function () {
     //Basket
-    $('.cart-block').click(function (e) {
+    $('.Basket').click(function (e) {
         e.preventDefault();
         let url = $(this).attr('href');
         alert(url)
