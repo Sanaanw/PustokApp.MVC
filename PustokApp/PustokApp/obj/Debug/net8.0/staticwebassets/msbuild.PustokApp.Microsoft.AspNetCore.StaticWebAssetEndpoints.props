@@ -1356,17 +1356,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ytnqdzmoai"},{"Name":"integrity","Value":"sha256-JvT3xCJrn2YX\u002BkFVn0l2z6nAm72heXiu/qVGtlgXZOU="},{"Name":"label","Value":"_content/PustokApp/assets/js/ajax-mail.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6086"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JvT3xCJrn2YX\u002BkFVn0l2z6nAm72heXiu/qVGtlgXZOU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Nov 2022 06:08:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/custom.3lf3m66jgj.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\custom.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3lf3m66jgj"},{"Name":"integrity","Value":"sha256-pz/r6pHi/45LHFpO2ZH5pD\u002BoAuuvZkZRGBNiz9PxpN0="},{"Name":"label","Value":"_content/PustokApp/assets/js/custom.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20367"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pz/r6pHi/45LHFpO2ZH5pD\u002BoAuuvZkZRGBNiz9PxpN0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Nov 2022 06:08:37 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/custom.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\custom.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pz/r6pHi/45LHFpO2ZH5pD\u002BoAuuvZkZRGBNiz9PxpN0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"20367"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pz/r6pHi/45LHFpO2ZH5pD\u002BoAuuvZkZRGBNiz9PxpN0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Nov 2022 06:08:37 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o5lidmCgvHw5Ir8jYyZLu3w42M0iAuJt7xIL6ZMndqg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"19858"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022o5lidmCgvHw5Ir8jYyZLu3w42M0iAuJt7xIL6ZMndqg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 11:38:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/custom.zcle6o96el.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\custom.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zcle6o96el"},{"Name":"integrity","Value":"sha256-o5lidmCgvHw5Ir8jYyZLu3w42M0iAuJt7xIL6ZMndqg="},{"Name":"label","Value":"_content/PustokApp/assets/js/custom.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19858"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022o5lidmCgvHw5Ir8jYyZLu3w42M0iAuJt7xIL6ZMndqg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 24 Apr 2025 11:38:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PustokApp/assets/js/main.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\main.js'))</AssetFile>

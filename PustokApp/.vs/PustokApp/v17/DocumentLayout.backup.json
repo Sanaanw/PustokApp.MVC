@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\data\\pustokappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\data\\pustokappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\models\\home\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\models\\home\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|c:\\users\\asus\\onedrive\\desktop\\pustok(mvc)\\pustokapp\\pustokapp\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7C7F34A-4EFF-478F-A4EE-FD099989518E}|PustokApp\\PustokApp.csproj|solutionrelative:pustokapp\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +38,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Models\\Home\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Models\\Home\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Models\\Home\\BaseEntity.cs",
+              "RelativeToolTip": "PustokApp\\Models\\Home\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:30:21.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Models\\AppUser.cs",
+              "RelativeToolTip": "PustokApp\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:30:02.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PustokAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Data\\PustokAppContext.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Data\\PustokAppContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Data\\PustokAppContext.cs",
+              "RelativeToolTip": "PustokApp\\Data\\PustokAppContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T08:53:13.635Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Account\\Profile.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Views\\Account\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Account\\Profile.cshtml",
-              "RelativeToolTip": "PustokApp\\Views\\Account\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T10:12:16.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "PustokApp\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "PustokApp\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAswMIAAAADAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Program.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Program.cs",
+              "RelativeToolTip": "PustokApp\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:31:33.108Z",
+              "WhenOpened": "2025-04-25T08:28:43.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CheckOut.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Order\\CheckOut.cshtml",
-              "RelativeDocumentMoniker": "PustokApp\\Views\\Order\\CheckOut.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Order\\CheckOut.cshtml",
-              "RelativeToolTip": "PustokApp\\Views\\Order\\CheckOut.cshtml",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAowI8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PustokApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T07:41:52.988Z",
+              "WhenOpened": "2025-04-24T13:17:33.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "PustokApp\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Controllers\\OrderController.cs*",
-              "RelativeToolTip": "PustokApp\\Controllers\\OrderController.cs*",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "PustokApp\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "PustokApp\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAkwO4AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T16:00:22.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "PustokApp\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Pustok(Mvc)\\PustokApp\\PustokApp\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "PustokApp\\Controllers\\ShopController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T07:40:03.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T15:59:58.143Z"
             }
           ]
         }

@@ -24,7 +24,7 @@ Hero Area
                             <div class="col-xl-6 col-md-6 col-sm-7">
                                 <div class="home-content-inner @(SLider.Order==1 ? "content-left-side" : "content-right-side") text-start">
                                     <h1>
-                                        @SLider.Title
+                                        @Html.Raw(SLider.Title)
                                     </h1>
                                     <h2>@SLider.Desc</h2>
                                     <a href="shop-grid.html" class="btn btn-outlined--primary">

@@ -27,6 +27,7 @@ namespace PustokApp
 
             app.UseHttpsRedirection();
             app.UseSession();
+            //wwwroot oxumaq uchun
             app.UseStaticFiles();
 
             app.UseRouting();

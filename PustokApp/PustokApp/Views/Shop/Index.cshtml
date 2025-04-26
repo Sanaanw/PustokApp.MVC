@@ -1,0 +1,251 @@
+﻿@model ShopVm
+@{
+    var authorIds = (List<int>)(ViewBag.AuthorIds)??new();
+    var tagIds = (List<int>)(ViewBag.TagIds)??new();
+}
+<section class="breadcrumb-section">
+    <h2 class="sr-only">Site Breadcrumb</h2>
+    <div class="container">
+        <div class="breadcrumb-contents">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="breadcrumb-item active">Shop</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<main class="inner-page-sec-padding-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3  mt--40 mt-lg--0">
+                <div class="inner-page-sidebar">
+                    <form asp-action="Index" id="shopForm" method="get">
+                      
+                        <!-- Brands -->
+                        <div class="single-block">
+                            <h3 class="sidebar-title">Brands</h3>
+                            <ul class="sidebar-menu--shop">
+                                @foreach (var brand in Model.Brands)
+                                {
+                                    <li>
+                                        <input @(ViewBag.BrandId == brand.Id ? "checked" : "") type="radio" value="@brand.Id" name="brandId" />
+                                        <span style="margin-left:12px;font-size:20px"> @brand.Name </span>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <!-- Authors -->
+                        <div class="single-block">
+                            <h3 class="sidebar-title">Authors</h3>
+                            <ul class="sidebar-menu--shop menu-type-2">
+                                @foreach (var author in Model.Authors)
+                                {
+                                    <li>
+                                        <input @(authorIds.Contains(author.Id) ? "checked" : "") type="checkbox" value="@author.Id" name="authorIds" />
+                                        <span style="margin-left:12px;font-size:20px"> @author.Name </span>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <!-- Price -->
+                        <div class="single-block">
+                            <h3 class="sidebar-title">Filter By Price</h3>
+                            <div class="range-slider pt--30">
+                                <div class="sb-range-slider"></div>
+                                <div class="slider-price">
+                                    <p>
+                                        <input type="text" id="amount" readonly="">
+                                        <input form="shopForm" type="hidden" value="SelectedMinPrice" name="minprice" id="minprice" readonly="">
+                                        <input form="shopForm" type="hidden" value="SelectedMaxPrice" name="maxprice" id="maxprice" readonly="">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tags -->
+                        <div class="single-block">
+                            <h3 class="sidebar-title">Tags</h3>
+                            <ul class="sidebar-menu--shop menu-type-2">
+                                @foreach (var tag in Model.Tags)
+                                {
+                                    <li>
+                                        <input @(tagIds.Contains(tag.Id) ? "checked" : "") type="checkbox" value="@tag.Id" name="tagIds" />
+                                        <span style="margin-left:12px;font-size:20px"> @tag.Name </span>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class="single-block">
+                            <button class="sidebar-title btn btn-primary w-100" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-9 order-lg-2">
+                <!-- Product listing and toolbar -->
+                <div class="shop-toolbar with-sidebar mb--30">
+                    <!-- Sorting and View options can stay as-is -->
+                    <!-- ... (rest of your toolbar code) -->
+                </div>
+
+                <!-- Product listing -->
+                <div class="shop-product-wrap grid with-pagination row space-db--30 shop-border">
+                    @foreach (var book in Model.Books)
+                    {
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product-card">
+                                <div class="product-grid-content">
+                                    <div class="product-header">
+                                        <a href="#" class="author">
+                                            @book.Author.Name
+                                        </a>
+                                        <h3><a href="product-details.html">@book.Title</a></h3>
+                                    </div>
+                                    <div class="product-card--body">
+                                        <div class="card-image">
+                                            <img src="~/assets/image/products/@book.BookImages.FirstOrDefault(x=>x.Status==true).Name" alt="">
+                                            <div class="hover-contents">
+                                                <a href="product-details.html" class="hover-image">
+                                                    <img src="~/assets/image/products/@book.BookImages.FirstOrDefault(x=>x.Status==false).Name" alt="">
+                                                </a>
+                                                <div class="hover-btns">
+                                                    <a href="cart.html" class="single-btn">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </a>
+                                                    <a href="wishlist.html" class="single-btn">
+                                                        <i class="fas fa-heart"></i>
+                                                    </a>
+                                                    <a href="compare.html" class="single-btn">
+                                                        <i class="fas fa-random"></i>
+                                                    </a>
+                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#quickModal"
+                                                       class="single-btn">
+                                                        <i class="fas fa-eye"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price-block">
+                                            <div class="price-block">
+                                                @if (book.DiscountPercent > 0)
+                                                {
+                                                    <span class="price-new text-success fw-bold fs-5">
+                                                        £@((book.Price - (book.Price * book.DiscountPercent / 100)).ToString("0.##"))
+                                                    </span>
+                                                    <del class="price-old text-muted fs-6 ms-2">
+                                                        £@book.Price.ToString("0.##")
+                                                    </del>
+                                                }
+                                                else
+                                                {
+                                                    <span class="price-new text-dark fw-bold fs-5">
+                                                        £@book.Price.ToString("0.##")
+                                                    </span>
+                                                }
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-list-content">
+                                    <div class="card-image">
+                                        <img src="image/products/product-3.jpg" alt="">
+                                    </div>
+                                    <div class="product-card--body">
+                                        <div class="product-header">
+                                            <a href="#" class="author">
+                                                @book.Author.Name
+                                            </a>
+                                            <h3>
+                                                <a href="product-details.html" tabindex="0">
+                                                    @book.Title
+                                                </a>
+                                            </h3>
+                                        </div>
+                                        <article>
+                                            <h2 class="sr-only">Card List Article</h2>
+                                            <p>
+                                                @book.Desc
+                                            </p>
+                                        </article>
+                                        <div class="price-block">
+                                            <div class="price-block">
+                                                @if (book.DiscountPercent > 0)
+                                                {
+                                                    <span class="price-new text-success fw-bold fs-5">
+                                                        £@((book.Price - (book.Price * book.DiscountPercent / 100)).ToString("0.##"))
+                                                    </span>
+                                                    <del class="price-old text-muted fs-6 ms-2">
+                                                        £@book.Price.ToString("0.##")
+                                                    </del>
+                                                }
+                                                else
+                                                {
+                                                    <span class="price-new text-dark fw-bold fs-5">
+                                                        £@book.Price.ToString("0.##")
+                                                    </span>
+                                                }
+                                            </div>
+
+                                        </div>
+                                        <div class="rating-block">
+                                            <span class="fas fa-star star_on"></span>
+                                            <span class="fas fa-star star_on"></span>
+                                            <span class="fas fa-star star_on"></span>
+                                            <span class="fas fa-star star_on"></span>
+                                            <span class="fas fa-star "></span>
+                                        </div>
+                                        <div class="btn-block">
+                                            <a href="#" class="btn btn-outlined">Add To Cart</a>
+                                            <a href="#" class="card-link">
+                                                <i class="fas fa-heart"></i> Add To
+                                                Wishlist
+                                            </a>
+                                            <a href="#" class="card-link">
+                                                <i class="fas fa-random"></i> Add To
+                                                Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <!-- Pagination -->
+                <div class="row pt--30">
+                    <div class="col-md-12">
+                        <!-- pagination code here if needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts{
+        <script>
+
+            $(function() {
+            $(".sb-range-slider").slider({
+                range: true,
+                min: @ViewBag.MinPrice.ToString("0"),
+                max: @ViewBag.MaxPrice.ToString("0"),
+                values: [@ViewBag.SelectedMinPrice.ToString("0"),@ViewBag.SelectedMaxPrice.ToString("0")],
+                slide: function(event, ui) {
+                    $("#amount").val("£" + ui.values[0] + " - £" + ui.values[1]);
+                    $("#minprice").val(ui.values[0]);
+                    $("#maxprice").val(ui.values[1]);
+                }
+            });
+            $("#amount").val("£" + $(".sb-range-slider").slider("values", 0) +
+                " - £" + $(".sb-range-slider").slider("values", 1));
+        });
+
+        </script>
+}
